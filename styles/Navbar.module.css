@@ -1,0 +1,138 @@
+.logoWrapper {
+  position: fixed;
+  top: 5%;
+  left: 3rem;
+
+  z-index: 100;
+}
+
+.navText {
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media screen and (max-width: 500px) {
+  .navText {
+    display: none;
+  }
+}
+
+.scrollSign {
+  position: absolute;
+  bottom: 10%;
+  left: 5rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.scrollSign span {
+  font-weight: bolder;
+  font-size: 1.2rem;
+
+  padding-right: 0.5em;
+}
+
+@media screen and (max-width: 550px) {
+  .scrollSign {
+    left: 50%;
+    bottom: 5%;
+    transform: translateX(-50%);
+  }
+
+  .scrollSign span {
+    font-size: 0.8rem;
+  }
+}
+
+/* LEFT SIDE OF THE MENU BAR */
+.menuLeft {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+/* RIGHT SIDE OF THE MENU BAR */
+.menuRight {
+  position: absolute;
+  top: 50%;
+  right: 15%;
+  transform: translateY(-60%);
+
+  transition: opacity 0.25s ease-in-out;
+}
+
+.menuRight:hover .navItem {
+  opacity: 0.25;
+}
+
+.menuRight:hover .navItem:hover {
+  opacity: 1;
+}
+
+.navLinks {
+  color: white;
+  text-decoration: none;
+  font-family: "DM Sans", sans-serif;
+  font-size: 5rem;
+  font-weight: 600;
+  transition: all 200ms linear;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  text-align: end;
+}
+
+.navLinks:hover {
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 600px) {
+  .navLinks {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .navLinks {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .menuRight {
+    transform: translateY(-30%);
+  }
+
+  .navLinks {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .menuWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .menuRight {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+  }
+
+  .navLinks {
+    font-size: 2rem;
+    justify-content: center;
+
+    text-align: center;
+  }
+}

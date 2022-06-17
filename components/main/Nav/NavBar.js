@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import { useRouter } from "next/router";
 import { DownCircleOutlined } from "@ant-design/icons";
 
 import Burger from "./Burger";
@@ -11,12 +12,14 @@ const NavBar = () => {
   const [open, setOpen] = useState(false);
   const [navBackground, setNavBackground] = useState("transparent");
 
+  const router = useRouter();
+
   let listener = null;
   useEffect(() => {
     listener = document.addEventListener("scroll", (e) => {
       var scrolled = document.scrollingElement.scrollTop;
       if (scrolled >= 120) {
-        setNavBackground("rgba(0, 0, 0, 0.75)");
+        setNavBackground("rgba(0, 0, 0, 0.9)");
       } else {
         setNavBackground("transparent");
       }
@@ -42,7 +45,7 @@ const NavBar = () => {
           backgroundColor: navBackground,
           transition: "all ease-out 0.2s",
           boxShadow:
-            navBackground === "rgba(0, 0, 0, 0.75)"
+            navBackground === "rgba(0, 0, 0, 0.9)"
               ? "0 2px 10px 0 rgba(0, 0, 0, 0.3)"
               : "none",
           zIndex: 99,
@@ -66,10 +69,12 @@ const NavBar = () => {
         </div>
       </div>
 
-      <div className={styles.scrollSign}>
-        <span>SCROLL</span>
-        <DownCircleOutlined />
-      </div>
+      {router.pathname !== "/" ? null : (
+        <div className={styles.scrollSign}>
+          <span>SCROLL</span>
+          <DownCircleOutlined />
+        </div>
+      )}
     </>
   );
 };

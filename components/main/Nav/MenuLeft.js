@@ -10,26 +10,46 @@ const MenuLeft = () => {
           <h4>by S1 Universitas Prasetiya Mulya</h4>
         </div>
         <div className={styles.navbarSocialWrapper}>
-          <div className={styles.socialWrapper}>
+          <a
+            href="https://www.google.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.socialWrapper}
+          >
             <Image src="/images/logo-socmed/ig.png" height={20} width={20} />
-          </div>
-          <div className={styles.socialWrapper}>
+          </a>
+          <a
+            href="https://www.google.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.socialWrapper}
+          >
             <Image
               src="/images/logo-socmed/lineadd.png"
               height={20}
               width={20}
             />
-          </div>
-          <div className={styles.socialWrapper}>
+          </a>
+          <a
+            href="https://www.google.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.socialWrapper}
+          >
             <Image src="/images/logo-socmed/email.png" height={20} width={20} />
-          </div>
-          <div className={styles.socialWrapper}>
+          </a>
+          <a
+            href="https://www.google.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.socialWrapper}
+          >
             <Image
               src="/images/logo-socmed/prasmul.png"
               height={20}
               width={20}
             />
-          </div>
+          </a>
         </div>
       </div>
     </div>

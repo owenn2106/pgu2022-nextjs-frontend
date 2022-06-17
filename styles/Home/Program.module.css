@@ -1,6 +1,9 @@
 .programSection {
   min-height: 83vh;
-  background-color: #e7e7e7;
+  background: url("/images/backgrounds/dark-wavy-bg.png") no-repeat center
+    center;
+  background-size: cover;
+  background-attachment: fixed;
 
   display: flex;
   align-items: center;
@@ -8,7 +11,7 @@
 }
 
 .programTitle h2 {
-  color: black;
+  color: white;
   font-size: 5rem;
   font-weight: 500;
   padding-bottom: 0.3em;
@@ -19,17 +22,19 @@
 }
 
 .programContentItem {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
-  padding: 1em 0 1em 1em;
+  padding: 1em;
 }
 
 .programContentItem:hover {
-  background-color: black;
+  background-color: #e7e7e7;
 }
 
 .programContentItem:hover span {
-  color: white;
+  color: black;
 }
 
 .programContentItem span {

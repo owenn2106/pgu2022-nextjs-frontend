@@ -1,14 +1,9 @@
 import { useState, useEffect } from "react";
-import { Typography } from "antd";
 import Head from "next/head";
 
 // Import Components
 import LeaderboardTable from "../components/Leaderboard/LeaderboardTable";
 import APIService from "../components/APIService";
-
-// import "antd/dist/antd.css";
-
-const { Title, Text } = Typography;
 
 const leaderboard = () => {
   const [data, setData] = useState([]);

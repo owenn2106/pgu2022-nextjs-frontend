@@ -1,38 +1,36 @@
-// import { useState, useEffect } from "react";
 import styles from "../../../styles/Navbar.module.css";
 import Image from "next/image";
 
-// import { useWindowSize } from "../../hooks";
-
 const MenuLeft = () => {
-  // const [width, height] = useWindowSize();
-  // const [imageHeight, setImageHeight] = useState(480);
-  // const [imageWidth, setImageWidth] = useState(750);
-
-  // useEffect(() => {
-  //   if (width > 1200) {
-  //     setImageHeight(480);
-  //     setImageWidth(750);
-  //   } else if (width <= 1200) {
-  //     setImageHeight(320);
-  //     setImageWidth(500);
-  //   }
-  // }, [width]);
-
   return (
     <div className={styles.menuLeft}>
-      {/* <div className={styles.navbarLogoWrapper}>
-        <Image
-          src="/images/logo-pgu.png"
-          height={imageHeight}
-          width={imageWidth}
-        />
-      </div> */}
-
-      <div className={styles.navbarSocialWrapper}>
-        <a href="#" className={styles.navbarSocial}>
-          <Image src="/" height={150} width={150} />
-        </a>
+      <div className={styles.leftWrapper}>
+        <div className={styles.leftText}>
+          <h4>An Orientation Program</h4>
+          <h4>by S1 Universitas Prasetiya Mulya</h4>
+        </div>
+        <div className={styles.navbarSocialWrapper}>
+          <div className={styles.socialWrapper}>
+            <Image src="/images/logo-socmed/ig.png" height={20} width={20} />
+          </div>
+          <div className={styles.socialWrapper}>
+            <Image
+              src="/images/logo-socmed/lineadd.png"
+              height={20}
+              width={20}
+            />
+          </div>
+          <div className={styles.socialWrapper}>
+            <Image src="/images/logo-socmed/email.png" height={20} width={20} />
+          </div>
+          <div className={styles.socialWrapper}>
+            <Image
+              src="/images/logo-socmed/prasmul.png"
+              height={20}
+              width={20}
+            />
+          </div>
+        </div>
       </div>
     </div>
   );

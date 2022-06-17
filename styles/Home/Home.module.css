@@ -1,5 +1,9 @@
 .header {
-  background-color: black;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("/images/backgrounds/lighthouse.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 
   min-height: 100vh;
   width: 100%;
@@ -76,30 +80,4 @@
     font-size: 3rem;
     line-height: 4rem;
   }
-}
-
-.description {
-  min-height: 60vh;
-  background-color: rgb(20, 20, 20);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.description h3 {
-  text-align: center;
-  font-size: 1.5rem;
-  font-weight: 300;
-}
-
-.imageWrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  margin-top: 2rem;
-}
-
-.imageWrapper h2 {
-  padding-left: 1.5rem;
 }

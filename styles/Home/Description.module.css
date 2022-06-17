@@ -1,0 +1,79 @@
+.description {
+  min-height: 83vh;
+  background: url("/images/backgrounds/nautical.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.description h2 {
+  text-align: center;
+  font-size: 6rem;
+}
+
+.descriptionContent {
+  width: 100%;
+  padding: 0 2em;
+}
+
+@media screen and (max-width: 1140px) {
+  .description h2 {
+    text-align: center;
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .descriptionContent {
+    padding: 0 5em;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .description h2 {
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .descriptionContent {
+    padding: 0 3em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .description h2 {
+    text-align: center;
+    font-size: 2rem;
+
+    padding-bottom: 0.8rem;
+  }
+
+  .descriptionContent {
+    padding: 0 2em;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .descriptionContent {
+    padding: 0;
+  }
+}
+
+.description h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 2.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .description h3 {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+}

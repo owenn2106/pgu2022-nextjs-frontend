@@ -1,30 +1,32 @@
-import { Table } from "antd";
+import styles from "../../styles/Leaderboard/Leaderboard.module.css";
+
+const Row = ({ x, key }) => {
+  return (
+    <tr key={key} className={styles.tableBody}>
+      <td>{x.rank}</td>
+      <td>{x.team_name}</td>
+      <td>{x.score}</td>
+      <td>{x.grade}</td>
+    </tr>
+  );
+};
 
 const LeaderboardTable = ({ data }) => {
-  const columns = [
-    {
-      title: "Rank",
-      dataIndex: "rank",
-      key: "rank",
-    },
-    {
-      title: "Team Name",
-      dataIndex: "team_name",
-      key: "rank",
-    },
-    {
-      title: "Score",
-      dataIndex: "score",
-      key: "rank",
-    },
-    {
-      title: "Grade",
-      dataIndex: "grade",
-      key: "rank",
-    },
-  ];
-
-  return <Table dataSource={data} columns={columns} rowKey="id" />;
+  return (
+    <table style={{ width: "100%" }}>
+      <tbody>
+        <tr className={styles.tableHeader}>
+          <th>Rank</th>
+          <th>Team Name</th>
+          <th>Score</th>
+          <th>Grade</th>
+        </tr>
+        {data.map((x, key) => {
+          return <Row x={x} key={key} />;
+        })}
+      </tbody>
+    </table>
+  );
 };
 
 export default LeaderboardTable;

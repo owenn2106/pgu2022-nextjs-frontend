@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styles from "../../styles/Home/About.module.css";
 
 const About = () => {
@@ -7,6 +8,9 @@ const About = () => {
         <div className={styles.aboutWrapper}>
           <div className={styles.aboutTitle}>
             <h2>ABOUT US</h2>
+            <div className={styles.decorWrapper}>
+              <Image src="/images/decor/wave.png" width={450} height={250} />
+            </div>
           </div>
           <div className={styles.aboutContent}>
             <p>

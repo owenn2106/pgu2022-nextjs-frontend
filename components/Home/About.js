@@ -3,7 +3,7 @@ import styles from "../../styles/Home/About.module.css";
 
 const About = () => {
   return (
-    <div className={styles.aboutSection}>
+    <div className={styles.aboutSection} id="about">
       <div className="container">
         <div className={styles.aboutWrapper}>
           <div className={styles.aboutTitle}>
@@ -23,9 +23,9 @@ const About = () => {
             <p>
               Our vision as an orientation program is to equip freshmen to adapt
               to university life through Prasetiya Mulya's values and
-              principles. With this year's semi-hybrid program, activities would
-              be done differently than in previous years. Our program would
-              feature a mix of online and onsite activities of various training
+              principles. With this year's hybrid program, activities would be
+              done differently than in previous years. Our program would feature
+              a mix of online and onsite activities of various training
               programs, informative lectures, and workshops. We aim to deliver
               knowledge and understanding uniquely, whilst reverting the stigma
               of burdening orientation.

@@ -1,0 +1,45 @@
+.ChainAmicaWrapper {
+  min-height: 270vh;
+  margin-top: 20vh;
+
+  width: 100%;
+
+  background: url("/images/backgrounds/chain-amica.jpeg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.HeadingMotto {
+  padding-top: 7em;
+  margin: 0 15em;
+}
+
+@media screen and (max-width: 1000px) {
+  .HeadingMotto {
+    margin: 0 10em;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .HeadingMotto {
+    margin: 0 4em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .HeadingMotto {
+    margin: 0 1em;
+  }
+}
+
+.HeadingMotto p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 500px) {
+  .HeadingMotto p {
+    font-size: 1.2rem;
+  }
+}

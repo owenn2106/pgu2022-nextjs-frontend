@@ -4,6 +4,8 @@ import Head from "next/head";
 import Header from "../components/Home/Header";
 import Description from "../components/Home/Description";
 import About from "../components/Home/About";
+import LodeFA from "../components/Home/LodeFA";
+import ChainAmica from "../components/Home/ChainAmica";
 import Program from "../components/Home/Program";
 
 export default function Home() {
@@ -18,6 +20,8 @@ export default function Home() {
       <Header />
       <Description />
       <About />
+      <LodeFA />
+      <ChainAmica />
       <Program />
     </div>
   );

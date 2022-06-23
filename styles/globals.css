@@ -8,6 +8,11 @@
   color: white;
 }
 
+::selection {
+  background: rgb(173, 214, 239);
+  color: black;
+}
+
 h1,
 h2 {
   font-family: "Space Grotesk", sans-serif;
@@ -33,6 +38,10 @@ p {
 .container {
   margin: 0 auto;
   width: min(90%, 70.5rem);
+}
+
+body {
+  background: #e7e7e7;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */

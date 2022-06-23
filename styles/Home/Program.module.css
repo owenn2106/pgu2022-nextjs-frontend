@@ -1,9 +1,6 @@
 .programSection {
-  min-height: 83vh;
-  background: url("/images/backgrounds/dark-wavy-bg.png") no-repeat center
-    center;
-  background-size: cover;
-  background-attachment: fixed;
+  min-height: 100vh;
+  background: #e7e7e7;
 
   display: flex;
   align-items: center;
@@ -11,14 +8,23 @@
 }
 
 .programTitle h2 {
-  color: white;
+  color: black;
   font-size: 5rem;
   font-weight: 500;
   padding-bottom: 0.3em;
 }
 
+@media screen and (max-width: 450px) {
+  .programTitle h2 {
+    font-size: 3rem;
+  }
+}
+
 .programContent hr {
-  opacity: 0.5;
+  border: none;
+  height: 1px;
+  color: black;
+  background: black;
 }
 
 .programContentItem {
@@ -27,17 +33,24 @@
   justify-content: space-between;
   width: 100%;
   padding: 1em;
+  cursor: pointer;
 }
 
 .programContentItem:hover {
-  background-color: #e7e7e7;
+  background-color: #437384;
 }
 
 .programContentItem:hover span {
-  color: black;
+  color: #e7e7e7;
 }
 
 .programContentItem span {
-  color: #437384;
+  color: black;
   font-size: 2.5rem;
+}
+
+@media screen and (max-width: 450px) {
+  .programContentItem span {
+    font-size: 1.8rem;
+  }
 }

@@ -11,8 +11,14 @@ const ChainAmica = () => {
           </p>
         </div>
 
-        <h2>Chain</h2>
-        <h2>LeAmica</h2>
+        <div className={styles.Wording}>
+          <h2 className={styles.Chain}>CHAIN</h2>
+          <h2 className={styles.LeAmica}>LEAMICA</h2>
+        </div>
+      </div>
+
+      <div className={styles.BoatWrapper}>
+        <img className={styles.Boat} src="/images/backgrounds/boat.png/" />
       </div>
     </div>
   );

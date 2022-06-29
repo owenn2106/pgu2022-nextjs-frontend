@@ -190,11 +190,11 @@
   }
 
   .navItem {
-    margin-bottom: 1em;
+    margin-bottom: 0.2em;
   }
 
   .navLinks {
-    font-size: 4rem;
+    font-size: 3rem;
     justify-content: center;
 
     text-align: center;
@@ -203,6 +203,35 @@
 
 @media screen and (max-width: 500px) {
   .navLinks {
-    font-size: 3rem;
+    font-size: 2.5rem;
+  }
+}
+
+.copyright {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+}
+
+.copyright p {
+  color: black;
+}
+
+.copyright span {
+  color: black;
+}
+
+@media screen and (max-width: 900px) {
+  .copyright {
+    bottom: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .copyright p {
+    font-size: 0.8rem;
   }
 }

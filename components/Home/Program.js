@@ -28,7 +28,9 @@ const Program = () => {
               }}
             >
               <span className={styles.program}>Scavenger Hunt</span>
-              <RightCircleOutlined />
+              <div className={styles.arrowWrapper}>
+                <span className={styles.arrow}>&#8594;</span>
+              </div>
             </a>
             <ProgramModal open={open1} onClose={() => setOpen1(false)}>
               <img src="/images/programs/scavenger-hunt.png" />
@@ -51,7 +53,9 @@ const Program = () => {
               }}
             >
               <span className={styles.program}>A.P.A. Race</span>
-              <RightCircleOutlined />
+              <div className={styles.arrowWrapper}>
+                <span className={styles.arrow}>&#8594;</span>
+              </div>
             </a>
             <ProgramModal open={open2} onClose={() => setOpen2(false)}>
               <img src="/images/programs/apa-race.png" />
@@ -74,7 +78,9 @@ const Program = () => {
               }}
             >
               <span className={styles.program}>Hackathon</span>
-              <RightCircleOutlined />
+              <div className={styles.arrowWrapper}>
+                <span className={styles.arrow}>&#8594;</span>
+              </div>
             </a>
             <ProgramModal open={open3} onClose={() => setOpen3(false)}>
               <img src="/images/programs/hackathon.png" />
@@ -97,7 +103,9 @@ const Program = () => {
               }}
             >
               <span className={styles.program}>Equipping Session</span>
-              <RightCircleOutlined />
+              <div className={styles.arrowWrapper}>
+                <span className={styles.arrow}>&#8594;</span>
+              </div>
             </a>
             <ProgramModal open={open4} onClose={() => setOpen4(false)}>
               <img src="/images/programs/equipping-session.png" />

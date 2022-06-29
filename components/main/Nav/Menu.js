@@ -23,6 +23,12 @@ const Menu = ({ open, toggle }) => {
         <MenuLeft />
         <MenuRight toggle={toggle} />
       </div>
+      <div className={styles.copyright}>
+        <p>
+          <span>&#169;</span>2022 Prasmul Gear Up
+        </p>
+        <p>All Rights Reserved</p>
+      </div>
     </StyledMenu>
   );
 };

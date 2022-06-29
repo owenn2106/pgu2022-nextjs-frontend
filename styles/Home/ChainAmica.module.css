@@ -4,10 +4,12 @@
 
   width: 100%;
 
-  background: url("/images/backgrounds/chain-amica.jpeg");
+  background: url("/images/backgrounds/chain-amica.jpg");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
+
+  position: relative;
 }
 
 .HeadingMotto {
@@ -38,8 +40,132 @@
   font-size: 1.5rem;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
   .HeadingMotto p {
     font-size: 1.2rem;
+  }
+}
+
+.BoatWrapper {
+  width: 100vw;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+
+  position: absolute;
+  bottom: 0;
+
+  overflow: hidden;
+}
+
+.Wording {
+  position: inherit;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Wording h2 {
+  position: absolute;
+  font-size: 9rem;
+  letter-spacing: -0.5rem;
+}
+
+.Chain {
+  font-family: "Lora", serif;
+  font-weight: 200;
+  top: 15%;
+  transform: translateX(-250px);
+}
+
+.LeAmica {
+  font-weight: 500;
+  top: 23%;
+  transform: translateX(350px);
+}
+
+@media screen and (max-width: 1250px) {
+  .Wording h2 {
+    font-size: 7rem;
+  }
+
+  .Chain {
+    transform: translate(-200px);
+  }
+
+  .LeAmica {
+    transform: translateX(300px);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .ChainAmicaWrapper {
+    min-height: 180vh;
+  }
+
+  .Boat {
+    transform: translateY(5%);
+  }
+
+  .Wording h2 {
+    font-size: 6rem;
+  }
+
+  .Chain {
+    top: 20%;
+    transform: translate(-170px);
+  }
+
+  .LeAmica {
+    top: 28%;
+    transform: translateX(230px);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .ChainAmicaWrapper {
+    min-height: 150vh;
+  }
+
+  .Wording h2 {
+    font-size: 5.5rem;
+  }
+
+  .Chain {
+    transform: translate(-150px);
+  }
+
+  .LeAmica {
+    transform: translateX(200px);
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .Boat {
+    position: absolute;
+    left: 97%;
+    top: -97em;
+    transform: translateX(-50%) scale(0.3);
+  }
+
+  .Wording {
+    display: block;
+    margin-top: 3em;
+  }
+
+  .Wording h2 {
+    position: static;
+  }
+
+  .Chain {
+    transform: translate(0);
+  }
+
+  .LeAmica {
+    transform: translateX(0);
   }
 }

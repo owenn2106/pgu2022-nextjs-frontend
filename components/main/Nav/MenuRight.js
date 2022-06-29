@@ -30,19 +30,6 @@ const MenuRight = ({ toggle }) => {
           href="/"
           className={styles.navLinks}
           onClick={(e) => {
-            let hero = document.getElementById("about");
-            e.preventDefault();
-            hero && hero.scrollIntoView({ behavior: "smooth", block: "end" });
-          }}
-        >
-          About Shelienzky
-        </a>
-      </div>
-      <div className={styles.navItem} onClick={toggle}>
-        <a
-          href="/"
-          className={styles.navLinks}
-          onClick={(e) => {
             let hero = document.getElementById("program");
             e.preventDefault();
             hero && hero.scrollIntoView({ behavior: "smooth" });

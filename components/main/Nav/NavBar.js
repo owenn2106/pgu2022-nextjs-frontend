@@ -53,9 +53,19 @@ const NavBar = () => {
       >
         <div className={styles.logoWrapper}>
           {open ? (
-            <Image src="/images/pgu-dark.png" height={60} width={108} />
+            <Image
+              src="/images/pgu-dark.png"
+              alt="pgu-dark"
+              height={60}
+              width={108}
+            />
           ) : (
-            <Image src="/images/pgu-light.png" height={60} width={108} />
+            <Image
+              src="/images/pgu-light.png"
+              alt="pgu-light"
+              height={60}
+              width={108}
+            />
           )}
         </div>
 

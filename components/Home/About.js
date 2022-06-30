@@ -9,7 +9,12 @@ const About = () => {
           <div className={styles.aboutTitle}>
             <h2 data-aos="fade-up">ABOUT US</h2>
             <div className={styles.decorWrapper} data-aos="fade-up">
-              <Image src="/images/decor/wave.png" width={450} height={250} />
+              <Image
+                src="/images/decor/wave.png"
+                alt="wave-decor"
+                width={450}
+                height={250}
+              />
             </div>
           </div>
           <div className={styles.aboutContent}>

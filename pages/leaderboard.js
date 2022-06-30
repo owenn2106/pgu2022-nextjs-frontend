@@ -10,7 +10,7 @@ const leaderboard = () => {
     <div className={styles.leaderboard}>
       <div className="container">
         <Head>
-          <title>PGU'22 - Leaderboard</title>
+          <title>PGU&apos;22 - Leaderboard</title>
         </Head>
 
         <h1 style={{ textAlign: "center" }}>PGU 2022 Leaderboard</h1>

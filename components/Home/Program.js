@@ -33,7 +33,10 @@ const Program = () => {
               </div>
             </a>
             <ProgramModal open={open1} onClose={() => setOpen1(false)}>
-              <img src="/images/programs/scavenger-hunt.png" />
+              <img
+                src="/images/programs/scavenger-hunt.png"
+                alt="scavenger-logo"
+              />
               <h2>Scavenger Hunt</h2>
               <p>
                 Scavenger Hunt is a scenario-based project that requires
@@ -58,7 +61,7 @@ const Program = () => {
               </div>
             </a>
             <ProgramModal open={open2} onClose={() => setOpen2(false)}>
-              <img src="/images/programs/apa-race.png" />
+              <img src="/images/programs/apa-race.png" alt="apa-logo" />
               <h2>A.P.A. Race</h2>
               <p>
                 (Aptitude Performance Assessment) Race requires good
@@ -83,7 +86,7 @@ const Program = () => {
               </div>
             </a>
             <ProgramModal open={open3} onClose={() => setOpen3(false)}>
-              <img src="/images/programs/hackathon.png" />
+              <img src="/images/programs/hackathon.png" alt="hackathon-logo" />
               <h2>Hackathon</h2>
               <p>
                 Each group has to come up with a business idea within the given
@@ -108,7 +111,10 @@ const Program = () => {
               </div>
             </a>
             <ProgramModal open={open4} onClose={() => setOpen4(false)}>
-              <img src="/images/programs/equipping-session.png" />
+              <img
+                src="/images/programs/equipping-session.png"
+                alt="equipping-logo"
+              />
               <h2>Equipping Session</h2>
               <p>
                 In this session, there will be some prominent speakers who will

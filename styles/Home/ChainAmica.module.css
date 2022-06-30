@@ -59,7 +59,7 @@
   overflow: hidden;
 }
 
-.Wording {
+.Wording > * {
   position: inherit;
   width: 100%;
   height: 100%;
@@ -78,7 +78,7 @@
 .Chain {
   font-family: "Lora", serif;
   font-weight: 200;
-  top: 15%;
+  top: 12%;
   transform: translateX(-250px);
 }
 
@@ -94,7 +94,7 @@
   }
 
   .Chain {
-    transform: translate(-200px);
+    transform: translate(-210px);
   }
 
   .LeAmica {
@@ -104,11 +104,7 @@
 
 @media screen and (max-width: 1000px) {
   .ChainAmicaWrapper {
-    min-height: 180vh;
-  }
-
-  .Boat {
-    transform: translateY(5%);
+    min-height: 300vh;
   }
 
   .Wording h2 {
@@ -127,9 +123,9 @@
 }
 
 @media screen and (max-width: 800px) {
-  .ChainAmicaWrapper {
-    min-height: 150vh;
-  }
+  /* .ChainAmicaWrapper {
+    min-height: 250vh;
+  } */
 
   .Wording h2 {
     font-size: 5.5rem;

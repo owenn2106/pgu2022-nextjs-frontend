@@ -8,7 +8,7 @@ const LodeFA = () => {
       <div className="container">
         <div className={styles.lodeFAWrapper}>
           <div className={styles.topic1}>
-            <div className={styles.subtitle}>
+            <div className={styles.subtitle} data-aos="fade-up">
               <Image
                 src="/images/decor/lodestar-star.png"
                 width={70}
@@ -16,7 +16,7 @@ const LodeFA = () => {
               />
               <h2>Lodestar</h2>
             </div>
-            <div className={styles.subcontent}>
+            <div className={styles.subcontent} data-aos="fade-up">
               <p>
                 A mentor that will serve as your guide in entering university
                 life. Lodestars will be there for you along the journey and
@@ -25,11 +25,19 @@ const LodeFA = () => {
             </div>
           </div>
           <div className={styles.topic2}>
-            <div className={styles.subtitle}>
+            <div
+              className={styles.subtitle}
+              data-aos="fade-up"
+              data-aos-offset="300"
+            >
               <Image src="/images/decor/fa-star.png" width={70} height={70} />
               <h2>Facilitator</h2>
             </div>
-            <div className={styles.subcontent}>
+            <div
+              className={styles.subcontent}
+              data-aos="fade-up"
+              data-aos-offset="300"
+            >
               <p>
                 A person that will educate and discipline freshmen to ensure the
                 completion and timeliness of their projects throughout the

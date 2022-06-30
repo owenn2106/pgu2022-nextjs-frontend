@@ -7,29 +7,33 @@ const About = () => {
       <div className="container">
         <div className={styles.aboutWrapper}>
           <div className={styles.aboutTitle}>
-            <h2>ABOUT US</h2>
-            <div className={styles.decorWrapper}>
+            <h2 data-aos="fade-up">ABOUT US</h2>
+            <div className={styles.decorWrapper} data-aos="fade-up">
               <Image src="/images/decor/wave.png" width={450} height={250} />
             </div>
           </div>
           <div className={styles.aboutContent}>
-            <p>
-              Prasmul Gear Up is an orientation program dedicated by Universitas
-              Prasetiya Mulya at the start of a new academic year. This year's
-              program will feature virtual and onsite activities to utilize
-              freshmen leaping from high school to university life.
-            </p>
+            <div data-aos="fade-left">
+              <p>
+                Prasmul Gear Up is an orientation program dedicated by
+                Universitas Prasetiya Mulya at the start of a new academic year.
+                This year's program will feature virtual and onsite activities
+                to utilize freshmen leaping from high school to university life.
+              </p>
+            </div>
             <br />
-            <p>
-              Our vision as an orientation program is to equip freshmen to adapt
-              to university life through Prasetiya Mulya's values and
-              principles. With this year's hybrid program, activities would be
-              done differently than in previous years. Our program would feature
-              a mix of online and onsite activities of various training
-              programs, informative lectures, and workshops. We aim to deliver
-              knowledge and understanding uniquely, whilst reverting the stigma
-              of burdening orientation.
-            </p>
+            <div data-aos="fade-left">
+              <p>
+                Our vision as an orientation program is to equip freshmen to
+                adapt to university life through Prasetiya Mulya's values and
+                principles. With this year's hybrid program, activities would be
+                done differently than in previous years. Our program would
+                feature a mix of online and onsite activities of various
+                training programs, informative lectures, and workshops. We aim
+                to deliver knowledge and understanding uniquely, whilst
+                reverting the stigma of burdening orientation.
+              </p>
+            </div>
           </div>
         </div>
       </div>

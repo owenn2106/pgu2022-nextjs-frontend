@@ -4,7 +4,7 @@ const ChainAmica = () => {
   return (
     <div className={styles.ChainAmicaWrapper}>
       <div className="container">
-        <div className={styles.HeadingMotto}>
+        <div className={styles.HeadingMotto} data-aos="fade-up">
           <p>
             THE VALUES AND CHARACTERISTICS THAT ALL PRASETIYA MULYA STUDENTS
             SHOULD POSSESS
@@ -12,13 +12,23 @@ const ChainAmica = () => {
         </div>
 
         <div className={styles.Wording}>
-          <h2 className={styles.Chain}>CHAIN</h2>
-          <h2 className={styles.LeAmica}>LEAMICA</h2>
+          <div>
+            <h2 className={styles.Chain}>CHAIN</h2>
+          </div>
+          <div>
+            <h2 className={styles.LeAmica}>LEAMICA</h2>
+          </div>
         </div>
       </div>
 
       <div className={styles.BoatWrapper}>
-        <img className={styles.Boat} src="/images/backgrounds/boat.png/" />
+        <img
+          className={styles.Boat}
+          src="/images/backgrounds/boat.png/"
+          data-aos="slide-up"
+          data-aos-duration="2000"
+          data-aos-offset="300"
+        />
       </div>
     </div>
   );

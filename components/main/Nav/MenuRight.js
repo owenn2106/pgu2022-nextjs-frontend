@@ -16,8 +16,8 @@ const MenuRight = ({ toggle }) => {
         <Link href="/">
           <a
             className={styles.navLinks}
-            onClick={() =>
-              setTimeout((e) => {
+            onClick={(e) =>
+              setTimeout(() => {
                 document.getElementById("about") &&
                   document
                     .getElementById("about")
@@ -33,8 +33,8 @@ const MenuRight = ({ toggle }) => {
         <Link href="/">
           <a
             className={styles.navLinks}
-            onClick={() =>
-              setTimeout((e) => {
+            onClick={(e) =>
+              setTimeout(() => {
                 document.getElementById("program") &&
                   document
                     .getElementById("program")

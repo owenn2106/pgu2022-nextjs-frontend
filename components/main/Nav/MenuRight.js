@@ -13,30 +13,38 @@ const MenuRight = ({ toggle }) => {
         </Link>
       </div>
       <div className={styles.navItem} onClick={toggle}>
-        <a
-          href="/"
-          className={styles.navLinks}
-          onClick={(e) => {
-            let hero = document.getElementById("about");
-            e.preventDefault();
-            hero && hero.scrollIntoView({ behavior: "smooth", block: "end" });
-          }}
-        >
-          About Us
-        </a>
+        <Link href="/">
+          <a
+            className={styles.navLinks}
+            onClick={() =>
+              setTimeout((e) => {
+                document.getElementById("about") &&
+                  document
+                    .getElementById("about")
+                    .scrollIntoView({ behavior: "smooth", block: "end" });
+              }, 500)
+            }
+          >
+            About Us
+          </a>
+        </Link>
       </div>
       <div className={styles.navItem} onClick={toggle}>
-        <a
-          href="/"
-          className={styles.navLinks}
-          onClick={(e) => {
-            let hero = document.getElementById("program");
-            e.preventDefault();
-            hero && hero.scrollIntoView({ behavior: "smooth" });
-          }}
-        >
-          Program Overview
-        </a>
+        <Link href="/">
+          <a
+            className={styles.navLinks}
+            onClick={() =>
+              setTimeout((e) => {
+                document.getElementById("program") &&
+                  document
+                    .getElementById("program")
+                    .scrollIntoView({ behavior: "smooth", block: "end" });
+              }, 500)
+            }
+          >
+            Program Overview
+          </a>
+        </Link>
       </div>
       <div className={styles.navItem}>
         <Link href="/leaderboard/">

@@ -63,8 +63,8 @@ const Program = () => {
               <p>
                 (Aptitude Performance Assessment) Race requires good
                 communication, teamwork, decision making, and problem-solving.
-                This race will test Voyagers' cognitive skills all under the
-                pressure of a limited time, while competing with the other
+                This race will test Voyagers&apos; cognitive skills all under
+                the pressure of a limited time, while competing with the other
                 groups.
               </p>
             </ProgramModal>

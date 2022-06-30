@@ -8,7 +8,7 @@ const Description = () => {
           <h2 className={styles.descriptionTitle1} data-aos="fade-right">
             WELCOME
           </h2>
-          <img src="/images/decor/blue-line.png" />
+          <img src="/images/decor/blue-line.png" alt="blue-line" />
           <h2 className={styles.descriptionTitle2} data-aos="fade-left">
             VOYAGERS
           </h2>
@@ -18,7 +18,7 @@ const Description = () => {
           <p>
             As Voyagers, you have to be able to survive throughout the whole
             journey. You must sail across the sea to reach your goal, navigating
-            through tides and storms. The journey won't go easy, so prepare
+            through tides and storms. The journey won&apos;t go easy, so prepare
             yourselves.
           </p>
         </div>

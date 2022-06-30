@@ -13,6 +13,7 @@ const LodeFA = () => {
                 src="/images/decor/lodestar-star.png"
                 width={70}
                 height={70}
+                alt="star"
               />
               <h2>Lodestar</h2>
             </div>
@@ -30,7 +31,12 @@ const LodeFA = () => {
               data-aos="fade-up"
               data-aos-offset="300"
             >
-              <Image src="/images/decor/fa-star.png" width={70} height={70} />
+              <Image
+                src="/images/decor/fa-star.png"
+                width={70}
+                height={70}
+                alt="star"
+              />
               <h2>Facilitator</h2>
             </div>
             <div

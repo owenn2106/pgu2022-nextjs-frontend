@@ -16,16 +16,9 @@ const MenuLeft = () => {
             rel="noopener noreferrer"
             className={styles.socialWrapper}
           >
-            <Image src="/images/logo-socmed/ig.png" height={20} width={20} />
-          </a>
-          <a
-            href="https://www.google.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.socialWrapper}
-          >
             <Image
-              src="/images/logo-socmed/lineadd.png"
+              src="/images/logo-socmed/ig.png"
+              alt="ig-icon"
               height={20}
               width={20}
             />
@@ -36,7 +29,25 @@ const MenuLeft = () => {
             rel="noopener noreferrer"
             className={styles.socialWrapper}
           >
-            <Image src="/images/logo-socmed/email.png" height={20} width={20} />
+            <Image
+              src="/images/logo-socmed/lineadd.png"
+              alt="lineadd-icon"
+              height={20}
+              width={20}
+            />
+          </a>
+          <a
+            href="https://www.google.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.socialWrapper}
+          >
+            <Image
+              src="/images/logo-socmed/email.png"
+              alt="email-icon"
+              height={20}
+              width={20}
+            />
           </a>
           <a
             href="https://www.google.com"
@@ -46,6 +57,7 @@ const MenuLeft = () => {
           >
             <Image
               src="/images/logo-socmed/prasmul.png"
+              alt="prasmul-logo"
               height={20}
               width={20}
             />

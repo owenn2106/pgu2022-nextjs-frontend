@@ -14,7 +14,7 @@ const ProgramModal = ({ open, onClose, ...props }) => {
     return function cleanup() {
       document.body.removeEventListener("keydown", closeOnEscapeKeyDown);
     };
-  }, []);
+  }, [closeOnEscapeKeyDown]);
 
   return (
     <div

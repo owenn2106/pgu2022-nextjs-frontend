@@ -25,6 +25,7 @@ const ChainAmica = () => {
         <img
           className={styles.Boat}
           src="/images/backgrounds/boat.png/"
+          alt="boat"
           data-aos="slide-up"
           data-aos-duration="2000"
           data-aos-offset="300"

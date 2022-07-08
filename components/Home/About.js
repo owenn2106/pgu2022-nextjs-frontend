@@ -7,8 +7,8 @@ const About = () => {
       <div className="container">
         <div className={styles.aboutWrapper}>
           <div className={styles.aboutTitle}>
-            <h2 data-aos="fade-up">ABOUT US</h2>
-            <div className={styles.decorWrapper} data-aos="fade-up">
+            <h2>ABOUT US</h2>
+            <div className={styles.decorWrapper}>
               <Image
                 src="/images/decor/wave.png"
                 alt="wave-decor"
@@ -18,7 +18,7 @@ const About = () => {
             </div>
           </div>
           <div className={styles.aboutContent}>
-            <div data-aos="fade-left">
+            <div>
               <p>
                 Prasmul Gear Up is an orientation program dedicated by
                 Universitas Prasetiya Mulya at the start of a new academic year.
@@ -28,7 +28,7 @@ const About = () => {
               </p>
             </div>
             <br />
-            <div data-aos="fade-left">
+            <div>
               <p>
                 Our vision as an orientation program is to equip freshmen to
                 adapt to university life through Prasetiya Mulya&apos;s values

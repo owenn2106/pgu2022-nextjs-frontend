@@ -16,6 +16,8 @@
 h1,
 h2 {
   font-family: "Space Grotesk", sans-serif;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 h3,
@@ -23,6 +25,8 @@ h4,
 h5,
 h6 {
   font-family: "Lora", serif;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 a {
@@ -33,6 +37,8 @@ a {
 
 p {
   font-family: "DM Sans", sans-serif;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .container {

@@ -84,7 +84,7 @@
 
 .LeAmica {
   font-weight: 500;
-  top: 23%;
+  top: 20%;
   transform: translateX(350px);
 }
 
@@ -112,13 +112,13 @@
   }
 
   .Chain {
-    top: 20%;
+    top: 12%;
     transform: translate(-170px);
   }
 
   .LeAmica {
-    top: 28%;
-    transform: translateX(230px);
+    top: 18%;
+    transform: translateX(240px);
   }
 }
 
@@ -136,16 +136,20 @@
   }
 
   .LeAmica {
-    transform: translateX(200px);
+    transform: translateX(220px);
   }
 }
 
 @media screen and (max-width: 750px) {
-  .Boat {
+  /* .Boat {
     position: absolute;
     left: 97%;
     top: -97em;
     transform: translateX(-50%) scale(0.3);
+  } */
+
+  .Boat {
+    display: none;
   }
 
   .Wording {
@@ -163,5 +167,23 @@
 
   .LeAmica {
     transform: translateX(0);
+  }
+}
+
+@media screen and (min-height: 800px) {
+  .LeAmica {
+    top: 18%;
+  }
+}
+
+@media screen and (min-height: 1050px) {
+  .LeAmica {
+    transform: translateX(370px);
+  }
+}
+
+@media screen and (min-height: 1200px) {
+  .LeAmica {
+    top: 17%;
   }
 }

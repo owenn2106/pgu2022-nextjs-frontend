@@ -5,16 +5,12 @@ const Description = () => {
     <div className={styles.description}>
       <div style={{ margin: "0 auto", width: "100%" }}>
         <div className={styles.titleWrapper}>
-          <h2 className={styles.descriptionTitle1} data-aos="fade-right">
-            WELCOME
-          </h2>
+          <h2 className={styles.descriptionTitle1}>WELCOME</h2>
           <img src="/images/decor/blue-line.png" alt="blue-line" />
-          <h2 className={styles.descriptionTitle2} data-aos="fade-left">
-            VOYAGERS
-          </h2>
+          <h2 className={styles.descriptionTitle2}>VOYAGERS</h2>
         </div>
 
-        <div className={styles.descriptionContent} data-aos="fade-up">
+        <div className={styles.descriptionContent}>
           <p>
             As Voyagers, you have to be able to survive throughout the whole
             journey. You must sail across the sea to reach your goal, navigating

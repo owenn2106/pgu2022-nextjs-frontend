@@ -55,7 +55,7 @@
   }
 }
 
-.arrowWrapper {
+/* .arrowWrapper {
   border: 1px solid black;
   border-radius: 50%;
   width: 50px;
@@ -70,12 +70,12 @@
     width: 40px;
     height: 40px;
   }
-}
+} */
 
 .arrow {
   height: 100%;
 }
 
-.programContentItem:hover .arrowWrapper {
+/* .programContentItem:hover .arrowWrapper {
   border: 1px solid #e7e7e7;
-}
+} */

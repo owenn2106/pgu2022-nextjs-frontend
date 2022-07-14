@@ -1,6 +1,4 @@
 import { useState } from "react";
-import { RightCircleOutlined } from "@ant-design/icons";
-import Image from "next/image";
 
 import ProgramModal from "./Modal";
 

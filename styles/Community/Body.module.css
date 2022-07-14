@@ -1,0 +1,133 @@
+.BodyWrapper {
+  margin-top: 15vh;
+}
+
+.CommunitySubTitle {
+  font-size: 4rem;
+}
+
+.Body h1,
+.Body h2,
+.Body p {
+  color: black;
+}
+
+.CardWrapper {
+  display: flex;
+  flex-wrap: wrap;
+
+  padding-bottom: 3em;
+}
+
+.CardWrapper > * {
+  flex: 1 1 10em;
+}
+
+.Card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 1em;
+  cursor: pointer;
+}
+
+.Card h2,
+.Card p {
+  text-align: center;
+}
+
+.Card h2 {
+  font-size: 1.2rem;
+  padding: 0.5em 0;
+}
+
+.Card p {
+  font-size: 0.8rem;
+}
+
+.logoWrapper {
+  background: #d9d9d9;
+  width: 250px;
+  height: 250px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 3em;
+}
+
+.logoWrapper img {
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.Card:hover img {
+  transform: scale(1.1);
+}
+
+/* MODAL STYLES */
+.HeaderTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0.3em;
+}
+
+.Header h2 {
+  color: black;
+}
+
+.Header hr {
+  border: none;
+  height: 2px;
+  /* Set the hr color */
+  color: black; /* old IE */
+  background-color: black; /* Modern Browsers */
+}
+
+/* MODAL CONTENT */
+.ContentTitle {
+  font-size: 5rem;
+  font-weight: 500;
+  padding-bottom: 0.5em;
+  text-align: start;
+}
+
+.Content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ContentLeft {
+  padding-right: 5em;
+}
+
+.ContentLeft > *:not(:first-child) {
+  margin: 2em 0;
+}
+
+.ContentLeft hr {
+  border: none;
+  height: 1px;
+  /* Set the hr color */
+  color: #437384; /* old IE */
+  background-color: #437384; /* Modern Browsers */
+  transform: scaleX(1.2);
+  transform-origin: right center;
+}
+
+.ContentLeft h3 {
+  color: #437384;
+  font-weight: 400;
+  line-height: 1.8rem;
+}
+
+.ContentLeft p {
+  font-size: 1.1rem;
+  line-height: 2rem;
+}

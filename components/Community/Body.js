@@ -8,7 +8,9 @@ import styles from "../../styles/Community/Body.module.css";
 const Body = () => {
   return (
     <div className={styles.Body}>
-      <h1 className={styles.CommunitySubTitle}>SAC &amp; SCC</h1>
+      <h1 className={styles.CommunitySubTitle} id="sac">
+        SAC &amp; SCC
+      </h1>
       <div className={styles.CardWrapper}>
         {SAC.map((el) => {
           return (
@@ -24,7 +26,9 @@ const Body = () => {
           );
         })}
       </div>
-      <h1 className={styles.CommunitySubTitle}>HIMA</h1>
+      <h1 className={styles.CommunitySubTitle} id="hima">
+        HIMA
+      </h1>
       <div className={styles.CardWrapper}>
         {HIMA.map((el) => {
           return (
@@ -40,7 +44,9 @@ const Body = () => {
           );
         })}
       </div>
-      <h1 className={styles.CommunitySubTitle}>ORGANIZATION</h1>
+      <h1 className={styles.CommunitySubTitle} id="org">
+        ORGANIZATION
+      </h1>
       <div className={styles.CardWrapper}>
         {ORG.map((el) => {
           return (

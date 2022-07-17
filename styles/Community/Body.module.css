@@ -1,9 +1,28 @@
 .BodyWrapper {
-  margin-top: 15vh;
+  margin-top: 18vh;
 }
 
 .CommunitySubTitle {
   font-size: 4rem;
+  scroll-margin-top: 20vh;
+}
+
+@media screen and (max-width: 768px) {
+  .CommunitySubTitle {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .CommunitySubTitle {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .CommunitySubTitle {
+    font-size: 2.2rem;
+  }
 }
 
 .Body h1,

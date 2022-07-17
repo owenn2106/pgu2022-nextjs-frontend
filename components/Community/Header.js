@@ -6,13 +6,46 @@ const Header = () => {
       <div className={styles.Navigation}>
         <ul>
           <li>
-            <a href=""></a>SAC &amp; SCC
+            <a
+              onClick={(e) =>
+                setTimeout(() => {
+                  document.getElementById("sac") &&
+                    document
+                      .getElementById("sac")
+                      .scrollIntoView({ behavior: "smooth", block: "start" });
+                }, 200)
+              }
+            >
+              SAC &amp; SCC
+            </a>
           </li>
           <li>
-            <a href=""></a>HIMA
+            <a
+              onClick={(e) =>
+                setTimeout(() => {
+                  document.getElementById("hima") &&
+                    document
+                      .getElementById("hima")
+                      .scrollIntoView({ behavior: "smooth", block: "start" });
+                }, 200)
+              }
+            >
+              HIMA
+            </a>
           </li>
           <li>
-            <a href=""></a>ORGANIZATION
+            <a
+              onClick={(e) =>
+                setTimeout(() => {
+                  document.getElementById("org") &&
+                    document
+                      .getElementById("org")
+                      .scrollIntoView({ behavior: "smooth", block: "start" });
+                }, 200)
+              }
+            >
+              ORGANIZATION
+            </a>
           </li>
         </ul>
       </div>

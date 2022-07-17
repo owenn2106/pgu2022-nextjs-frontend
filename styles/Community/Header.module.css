@@ -1,0 +1,149 @@
+.HeaderWrapper {
+  background: url("/images/backgrounds/pattern-geo.png");
+
+  height: 75vh;
+  padding: 3em;
+  margin-bottom: 5em;
+  border-radius: 30px;
+}
+
+.Navigation ul {
+  display: flex;
+  align-items: center;
+
+  list-style: none;
+}
+
+.Navigation ul li {
+  margin-right: 2em;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #437384;
+  cursor: pointer;
+
+  transition: all 0.2s ease;
+}
+
+@media screen and (max-width: 950px) {
+  .Navigation ul li {
+    margin-right: 1.5rem;
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .Navigation ul {
+    flex-direction: column;
+    align-items: end;
+    text-align: end;
+  }
+
+  .Navigation ul li {
+    margin-right: 0;
+    margin-bottom: 0.5em;
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Navigation ul {
+    align-items: center;
+    text-align: center;
+  }
+
+  .Navigation ul li {
+    margin-right: 0;
+    margin-bottom: 0.5em;
+    font-size: 2rem;
+  }
+}
+
+.Navigation ul li:hover {
+  color: white;
+}
+
+.Title {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.Title > * {
+  position: absolute;
+}
+
+.Title h1 {
+  bottom: 30%;
+  right: 15%;
+  font-size: 7rem;
+  font-weight: 500;
+}
+
+.Title h3 {
+  font-size: 7rem;
+  font-style: italic;
+  font-weight: 400;
+  bottom: 10%;
+  right: 4%;
+}
+
+@media screen and (min-height: 800px) {
+  .Title h3 {
+    bottom: 15%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .Title h1,
+  .Title h3 {
+    font-size: 5rem;
+  }
+
+  .Title h1 {
+    bottom: 23%;
+    right: 13%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .HeaderWrapper {
+    position: relative;
+  }
+
+  .Title {
+    width: 0;
+    position: absolute;
+    top: 65%;
+  }
+
+  .Title h1,
+  .Title h3 {
+    position: static;
+    line-height: 4rem;
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .Title {
+    top: 70%;
+  }
+
+  .Title h1,
+  .Title h3 {
+    line-height: 3rem;
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Title {
+    top: 80%;
+  }
+
+  .Title h1,
+  .Title h3 {
+    line-height: 2rem;
+    font-size: 2rem;
+  }
+}

@@ -15,6 +15,7 @@ const Body = () => {
         {SAC.map((el) => {
           return (
             <BodyCard
+              key={el.id}
               id={el.id}
               name={el.name}
               logo={el.logo}
@@ -33,6 +34,7 @@ const Body = () => {
         {HIMA.map((el) => {
           return (
             <BodyCard
+              key={el.id}
               id={el.id}
               name={el.name}
               logo={el.logo}
@@ -51,6 +53,7 @@ const Body = () => {
         {ORG.map((el) => {
           return (
             <BodyCard
+              key={el.id}
               id={el.id}
               name={el.name}
               logo={el.logo}

@@ -11,7 +11,7 @@ const MenuLeft = () => {
         </div>
         <div className={styles.navbarSocialWrapper}>
           <a
-            href="https://www.google.com"
+            href="https://www.instagram.com/pgu.prasmul/?igshid=YmMyMTA2M2Y%3D"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.socialWrapper}

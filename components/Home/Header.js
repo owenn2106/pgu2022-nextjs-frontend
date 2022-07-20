@@ -1,9 +1,8 @@
 import styles from "../../styles/Home/Home.module.css";
-import { motion } from "framer-motion";
 
 const Header = () => {
   return (
-    <motion.section className={styles.header} exit={{ opacity: 0 }}>
+    <section className={styles.header}>
       <div className="container">
         <div className={styles.headerText}>
           <h1>A Guiding Light</h1>
@@ -11,7 +10,7 @@ const Header = () => {
           <h1>FIRST VOYAGE</h1>
         </div>
       </div>
-    </motion.section>
+    </section>
   );
 };
 

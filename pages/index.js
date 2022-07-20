@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { motion } from "framer-motion";
 
 // Import Components
 import Header from "../components/Home/Header";
@@ -10,7 +11,7 @@ import Program from "../components/Home/Program";
 
 export default function Home() {
   return (
-    <div>
+    <motion.div exit={{ opacity: 0 }}>
       <Head>
         <title>Prasmul Gear Up 2022</title>
         <meta name="description" content="Website of Prasmul Gear Up 2022" />
@@ -23,6 +24,6 @@ export default function Home() {
       <LodeFA />
       <ChainAmica />
       <Program />
-    </div>
+    </motion.div>
   );
 }

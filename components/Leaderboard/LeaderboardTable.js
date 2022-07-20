@@ -13,7 +13,7 @@ const Row = ({ x, key }) => {
 
 const LeaderboardTable = ({ data }) => {
   return (
-    <table style={{ width: "100%" }}>
+    <table style={{ width: "100%" }} className={styles.table}>
       <tbody>
         <tr className={styles.tableHeader}>
           <th>Rank</th>

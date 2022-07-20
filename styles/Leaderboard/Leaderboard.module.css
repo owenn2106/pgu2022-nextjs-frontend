@@ -6,11 +6,18 @@
   padding-bottom: 10vh;
 }
 
+.table {
+  border-collapse: collapse;
+}
+
 .tableHeader > * {
   font-size: 1.5rem;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .tableBody > * {
   text-align: center;
   padding: 0.5em 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }

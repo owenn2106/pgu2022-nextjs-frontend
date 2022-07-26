@@ -1,10 +1,12 @@
 .HeaderWrapper {
-  background: url("/images/backgrounds/pattern-geo.png");
-
-  height: 75vh;
+  background: url("/images/backgrounds/comlife.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
   padding: 3em;
+  padding-top: 10em;
   margin-bottom: 5em;
-  border-radius: 30px;
 }
 
 .Navigation ul {

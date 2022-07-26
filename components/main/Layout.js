@@ -15,6 +15,8 @@ const Layout = ({ children }) => {
         <NavBar />
       ) : router.pathname === "/leaderboard" ? (
         <NavBar />
+      ) : router.pathname === "/community" ? (
+        <NavBar />
       ) : (
         <NavBarBlack />
       )}

@@ -5,12 +5,14 @@ import styles from "../styles/Community/Body.module.css";
 
 const community = () => {
   return (
-    <div className="container">
-      <div className={styles.BodyWrapper}>
-        <Header />
-        <Body />
+    <>
+      <Header />
+      <div className="container">
+        <div className={styles.BodyWrapper}>
+          <Body />
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

@@ -9,6 +9,20 @@ const Header = () => {
             <a
               onClick={(e) =>
                 setTimeout(() => {
+                  document.getElementById("org") &&
+                    document
+                      .getElementById("org")
+                      .scrollIntoView({ behavior: "smooth", block: "start" });
+                }, 200)
+              }
+            >
+              ORGANIZATION
+            </a>
+          </li>
+          <li>
+            <a
+              onClick={(e) =>
+                setTimeout(() => {
                   document.getElementById("sac") &&
                     document
                       .getElementById("sac")
@@ -37,14 +51,14 @@ const Header = () => {
             <a
               onClick={(e) =>
                 setTimeout(() => {
-                  document.getElementById("org") &&
+                  document.getElementById("committee") &&
                     document
-                      .getElementById("org")
+                      .getElementById("committee")
                       .scrollIntoView({ behavior: "smooth", block: "start" });
                 }, 200)
               }
             >
-              ORGANIZATION
+              COMMITTEE
             </a>
           </li>
         </ul>

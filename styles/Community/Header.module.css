@@ -5,8 +5,9 @@
   background-position: center;
   height: 100vh;
   padding: 3em;
-  padding-top: 10em;
   margin-bottom: 5em;
+
+  position: relative;
 }
 
 .Navigation ul {
@@ -14,6 +15,10 @@
   align-items: center;
 
   list-style: none;
+
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
 }
 
 .Navigation ul li {
@@ -48,10 +53,10 @@
 }
 
 @media screen and (max-width: 400px) {
-  .Navigation ul {
+  /* .Navigation ul {
     align-items: center;
     text-align: center;
-  }
+  } */
 
   .Navigation ul li {
     margin-right: 0;
@@ -67,85 +72,67 @@
 .Title {
   width: 100%;
   height: 100%;
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.Title > * {
+/* .Title > * {
   position: absolute;
-}
+} */
 
 .Title h1 {
-  bottom: 30%;
-  right: 15%;
-  font-size: 7rem;
+  font-size: 8rem;
   font-weight: 500;
+  padding-right: 0.5em;
+  transform: translate(10%, -40%);
 }
 
 .Title h3 {
-  font-size: 7rem;
+  font-size: 8rem;
   font-style: italic;
   font-weight: 400;
-  bottom: 10%;
-  right: 4%;
+  transform: translate(-50%, 40%);
 }
 
-@media screen and (min-height: 800px) {
-  .Title h3 {
-    bottom: 15%;
-  }
-}
-
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 900px) {
   .Title h1,
   .Title h3 {
-    font-size: 5rem;
-  }
-
-  .Title h1 {
-    bottom: 23%;
-    right: 13%;
+    font-size: 6rem;
   }
 }
 
 @media screen and (max-width: 700px) {
-  .HeaderWrapper {
-    position: relative;
-  }
-
   .Title {
-    width: 0;
-    position: absolute;
-    top: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    padding-top: 5em;
   }
 
   .Title h1,
   .Title h3 {
-    position: static;
-    line-height: 4rem;
+    transform: translate(0, 0);
     font-size: 4rem;
   }
 }
 
-@media screen and (max-width: 700px) {
-  .Title {
-    top: 70%;
-  }
-
+@media screen and (max-width: 450px) {
   .Title h1,
   .Title h3 {
-    line-height: 3rem;
     font-size: 3rem;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 350px) {
   .Title {
-    top: 80%;
+    padding-top: 10em;
   }
 
   .Title h1,
   .Title h3 {
-    line-height: 2rem;
     font-size: 2rem;
   }
 }

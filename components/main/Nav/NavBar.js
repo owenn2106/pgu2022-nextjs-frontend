@@ -7,6 +7,7 @@ import Burger from "./Burger";
 import Menu from "./Menu";
 
 import styles from "../../../styles/Navbar.module.css";
+import Link from "next/link";
 
 const NavBar = () => {
   const [open, setOpen] = useState(false);
@@ -52,21 +53,25 @@ const NavBar = () => {
         }}
       >
         <div className={styles.logoWrapper}>
-          {open ? (
-            <Image
-              src="/images/pgu-dark.png"
-              alt="pgu-dark"
-              height={40}
-              width={72}
-            />
-          ) : (
-            <Image
-              src="/images/pgu-light.png"
-              alt="pgu-light"
-              height={40}
-              width={72}
-            />
-          )}
+          <Link href="/">
+            <a>
+              {open ? (
+                <Image
+                  src="/images/pgu-dark.png"
+                  alt="pgu-dark"
+                  height={40}
+                  width={72}
+                />
+              ) : (
+                <Image
+                  src="/images/pgu-light.png"
+                  alt="pgu-light"
+                  height={40}
+                  width={72}
+                />
+              )}
+            </a>
+          </Link>
         </div>
 
         <div className={styles.navText}>

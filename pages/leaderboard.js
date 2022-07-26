@@ -12,6 +12,8 @@ const leaderboard = () => {
       <div className="container">
         <Head>
           <title>PGU&apos;22 - Leaderboard</title>
+          <meta name="description" content="Website of Prasmul Gear Up 2022" />
+          <link rel="icon" href="/favicon.ico" />
         </Head>
 
         <h1 style={{ textAlign: "center", fontSize: "3rem" }}>

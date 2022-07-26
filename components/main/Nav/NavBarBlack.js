@@ -21,7 +21,7 @@ const NavBarBlack = () => {
           top: 0,
           left: 0,
           width: "100%",
-          height: "17vh",
+          height: "10vh",
           backgroundColor: "transparent",
           zIndex: 99,
         }}
@@ -30,8 +30,8 @@ const NavBarBlack = () => {
           <Image
             src="/images/pgu-dark.png"
             alt="pgu-dark"
-            height={60}
-            width={108}
+            height={40}
+            width={72}
           />
         </div>
 

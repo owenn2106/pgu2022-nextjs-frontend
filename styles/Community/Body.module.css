@@ -127,7 +127,7 @@
 }
 
 .ContentLeft > *:not(:first-child) {
-  margin: 2em 0;
+  margin: 1em 0;
 }
 
 .ContentLeft hr {
@@ -163,4 +163,8 @@
 .CP h5,
 .CP strong {
   color: black;
+}
+
+.CP h5 {
+  font-weight: 400;
 }

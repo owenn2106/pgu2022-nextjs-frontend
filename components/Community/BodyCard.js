@@ -43,7 +43,7 @@ const BodyCard = ({
               <hr />
               <h3>{body2}</h3>
               <div className={styles.CP}>
-                <h5>CONTACT PERSON:</h5>
+                <h5>Contact Person:</h5>
                 <p>
                   <strong>{cp_name}</strong>
                 </p>

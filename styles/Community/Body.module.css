@@ -111,7 +111,7 @@
 .ContentTitle {
   font-size: 5rem;
   font-weight: 500;
-  padding-bottom: 0.5em;
+  /* padding-bottom: 0.5em; */
   text-align: start;
 }
 
@@ -149,4 +149,18 @@
 .ContentLeft p {
   font-size: 1.1rem;
   line-height: 2rem;
+}
+
+.ContentRight {
+  max-width: 30%;
+}
+
+.ContentRight img {
+  width: 100%;
+  height: 100%;
+}
+
+.CP h5,
+.CP strong {
+  color: black;
 }

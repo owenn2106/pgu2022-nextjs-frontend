@@ -23,20 +23,6 @@ const Header = () => {
             <a
               onClick={(e) =>
                 setTimeout(() => {
-                  document.getElementById("sac") &&
-                    document
-                      .getElementById("sac")
-                      .scrollIntoView({ behavior: "smooth", block: "start" });
-                }, 200)
-              }
-            >
-              SAC &amp; SCC
-            </a>
-          </li>
-          <li>
-            <a
-              onClick={(e) =>
-                setTimeout(() => {
                   document.getElementById("hima") &&
                     document
                       .getElementById("hima")
@@ -45,6 +31,20 @@ const Header = () => {
               }
             >
               HIMA
+            </a>
+          </li>
+          <li>
+            <a
+              onClick={(e) =>
+                setTimeout(() => {
+                  document.getElementById("sac") &&
+                    document
+                      .getElementById("sac")
+                      .scrollIntoView({ behavior: "smooth", block: "start" });
+                }, 200)
+              }
+            >
+              SAC &amp; SCC
             </a>
           </li>
           <li>

@@ -3,7 +3,18 @@ import Modal from "./Modal";
 
 import styles from "../../styles/Community/Body.module.css";
 
-const BodyCard = ({ id, name, logo, description, category, body1, body2 }) => {
+const BodyCard = ({
+  id,
+  name,
+  logo,
+  description,
+  category,
+  body1,
+  body2,
+  cp_name,
+  cp_line,
+  cp_wa,
+}) => {
   const [open, setOpen] = useState(false);
 
   return (
@@ -31,6 +42,18 @@ const BodyCard = ({ id, name, logo, description, category, body1, body2 }) => {
               <p>{body1}</p>
               <hr />
               <h3>{body2}</h3>
+              <div className={styles.CP}>
+                <h5>CONTACT PERSON:</h5>
+                <p>
+                  <strong>{cp_name}</strong>
+                </p>
+                <p>
+                  Line: <strong>{cp_line}</strong>
+                </p>
+                <p>
+                  WhatsApp: <strong>{cp_wa}</strong>
+                </p>
+              </div>
             </div>
             <div className={styles.ContentRight}>
               <img src={logo} alt="logo" />

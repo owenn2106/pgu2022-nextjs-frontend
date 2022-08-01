@@ -1,4 +1,5 @@
 import Head from "next/head";
+import favicon from "../public/favicon.ico";
 
 // Import Components
 import LeaderboardTable from "../components/Leaderboard/LeaderboardTable";

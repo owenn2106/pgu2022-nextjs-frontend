@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { motion } from "framer-motion";
+import favicon from "../public/favicon.ico";
 
 // Import Components
 import Header from "../components/Home/Header";

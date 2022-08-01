@@ -22,7 +22,32 @@ const leaderboard = () => {
         <p
           style={{ textAlign: "center", color: "#437384", fontSize: "1.5rem" }}
         >
-          Last updated: 17 July 2022 HH:MM:SS
+          Last updated: 01 August 2022 13:40:00 WIB
+        </p>
+        <p style={{ textAlign: "center", paddingTop: "2em" }}>
+          Use{" "}
+          <code
+            style={{
+              borderRadius: "5px",
+              backgroundColor: "#202124",
+              color: "#437384",
+              padding: ".2em .5em",
+            }}
+          >
+            ctrl + f
+          </code>{" "}
+          or{" "}
+          <code
+            style={{
+              borderRadius: "5px",
+              backgroundColor: "#202124",
+              color: "#437384",
+              padding: ".2em .5em",
+            }}
+          >
+            cmd + f
+          </code>{" "}
+          to find your team number!
         </p>
         <div style={{ marginTop: 60 }}>
           <LeaderboardTable data={data} />

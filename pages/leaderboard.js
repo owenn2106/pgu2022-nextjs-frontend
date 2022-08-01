@@ -12,7 +12,33 @@ const leaderboard = () => {
       <div className="container">
         <Head>
           <title>PGU&apos;22 - Leaderboard</title>
-          <meta name="description" content="Website of Prasmul Gear Up 2022" />
+          <meta
+            name="description"
+            content="Website of Prasmul Gear Up 2022 - Leaderboard"
+          />
+          <meta property="og:type" content="article" />
+
+          <meta
+            property="og:title"
+            content="Prasmul Gear Up 2022 Leaderboard"
+          />
+
+          <meta
+            property="og:description"
+            content="Check out your team's ranking here!"
+          />
+
+          <meta property="og:image" content={favicon} />
+
+          <meta
+            property="og:url"
+            content="https://prasmulgearup.com/leaderboard/"
+          />
+
+          <meta
+            property="og:site_name"
+            content="Prasmul Gear Up 2022 Leaderboard"
+          />
           <link rel="icon" href="/favicon.ico" />
         </Head>
 

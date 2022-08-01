@@ -14,7 +14,24 @@ export default function Home() {
     <motion.div exit={{ opacity: 0 }}>
       <Head>
         <title>Prasmul Gear Up 2022</title>
-        <meta name="description" content="Website of Prasmul Gear Up 2022" />
+        <meta
+          name="description"
+          content="Website of Prasmul Gear Up 2022 - Orientation Program by Universitas Prasetiya Mulya"
+        />
+        <meta property="og:type" content="article" />
+
+        <meta property="og:title" content="Prasmul Gear Up 2022" />
+
+        <meta
+          property="og:description"
+          content="Prasmul Gear Up 2022 - Orientation Program by Universitas Prasetiya Mulya"
+        />
+
+        <meta property="og:image" content={favicon} />
+
+        <meta property="og:url" content="https://prasmulgearup.com/" />
+
+        <meta property="og:site_name" content="Prasmul Gear Up 2022" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

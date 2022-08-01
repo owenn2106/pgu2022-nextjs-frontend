@@ -58,14 +58,14 @@ const NavBar = () => {
               {open ? (
                 <Image
                   src="/images/pgu-dark.png"
-                  alt="pgu-dark"
+                  alt="Prasmul Gear Up 2022"
                   height={40}
                   width={72}
                 />
               ) : (
                 <Image
                   src="/images/pgu-light.png"
-                  alt="pgu-light"
+                  alt="Prasmul Gear Up 2022"
                   height={40}
                   width={72}
                 />

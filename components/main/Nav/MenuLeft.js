@@ -50,14 +50,14 @@ const MenuLeft = () => {
             />
           </a>
           <a
-            href="https://www.google.com"
+            href="https://www.prasetiyamulya.ac.id/en/"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.socialWrapper}
           >
             <Image
               src="/images/logo-socmed/prasmul.png"
-              alt="prasmul-logo"
+              alt="Universitas Prasetiya Mulya"
               height={20}
               width={20}
             />

@@ -51,7 +51,7 @@ const Row = ({ x }) => {
 
 const LeaderboardTable = ({ data }) => {
   return (
-    <table style={{ width: "100%" }} className={styles.table}>
+    <table style={{ width: "100%" }} className={styles.table} cellSpacing="0">
       <tbody>
         <tr className={styles.tableHeader}>
           <th>Rank</th>

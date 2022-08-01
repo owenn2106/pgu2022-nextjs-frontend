@@ -60,7 +60,7 @@ const LeaderboardTable = ({ data }) => {
           <th>Grade</th>
         </tr>
         {data.map((x, key) => {
-          return <Row x={x} />;
+          return <Row x={x} key={key} />;
         })}
       </tbody>
     </table>

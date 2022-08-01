@@ -104,7 +104,7 @@ const Body = () => {
         transition={{ duration: 0.5, delay: 0.3 }}
         className={styles.CommunitySubTitle}
         viewport={{ once: true }}
-        id="sac"
+        id="committee"
       >
         COMMITTEE
       </motion.h1>

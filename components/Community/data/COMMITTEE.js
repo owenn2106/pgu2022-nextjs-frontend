@@ -29,9 +29,9 @@ export const COMMITTEE = [
     id: "03",
     name: "HULT PRIZE",
     logo: "/images/logo-committee/hult.png",
-    description: "A place to learn share ideas and experiences",
+    description: "The world's largest student competition",
     body1:
-      "The Hult Prize is the world's largest on student competition with its campus program being the home the world's largest college and university network for impact. College students from all around the world compete to solve a pressing social issue faced by millions via start-up enterprises and win a total of US$1.000.000.",
+      "The Hult Prize is the world's largest student competition with its campus program being the home the world's largest college and university network for impact. College students from all around the world compete to solve a pressing social issue faced by millions via start-up enterprises and win a total of US$1.000.000.",
     body2: "",
     cp_name: "Keysha Syahira",
     cp_line: "keyshasya",

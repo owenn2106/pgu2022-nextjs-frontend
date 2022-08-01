@@ -15,7 +15,7 @@ export const COMMITTEE = [
   {
     id: "02",
     name: "TEDX",
-    logo: "/images/logo-org/tedx.png",
+    logo: "/images/logo-committee/tedx.png",
     description: "A place to learn share ideas and experiences",
     body1:
       "TEDxUniversitasPrasetiyaMulya 2022 is a non-profit organization under TED (Technology, Entertainment, and Design) with the aim and vision of “ideas worth spreading”. Covering all topics from science, and business to global issues, TED decided that more people are willing to share their ideas but haven’t found the right platform. Hence, TEDx is born to accommodate everyone to unleash their ideas, inspire, and inform. TEDxUniversitasPrasetiyaMulya started in 2015 as a platform for the Universitas Prasetiya Mulya community to learn and share ideas and experiences.",
@@ -24,5 +24,17 @@ export const COMMITTEE = [
     cp_name: "Amabel Angel",
     cp_line: "amabelangelll",
     cp_wa: "0817222038",
+  },
+  {
+    id: "03",
+    name: "HULT PRIZE",
+    logo: "/images/logo-committee/hult.png",
+    description: "A place to learn share ideas and experiences",
+    body1:
+      "The Hult Prize is the world's largest on student competition with its campus program being the home the world's largest college and university network for impact. College students from all around the world compete to solve a pressing social issue faced by millions via start-up enterprises and win a total of US$1.000.000.",
+    body2: "",
+    cp_name: "Keysha Syahira",
+    cp_line: "keyshasya",
+    cp_wa: "081318930941",
   },
 ];

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { motion } from "framer-motion";
 import Modal from "./Modal";
 
 import styles from "../../styles/Community/Body.module.css";
@@ -19,13 +20,19 @@ const BodyCard = ({
 
   return (
     <>
-      <div className={styles.Card} onClick={() => setOpen(true)}>
+      <motion.div
+        initial={{ y: 100, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.5 }}
+        className={styles.Card}
+        onClick={() => setOpen(true)}
+      >
         <div className={styles.logoWrapper}>
           <img src={logo} alt="logo" />
         </div>
         <h2>{name}</h2>
         <p>{description}</p>
-      </div>
+      </motion.div>
       <Modal open={open} onClose={() => setOpen(false)}>
         <>
           <div className={styles.Header}>

@@ -109,10 +109,15 @@
 
 /* MODAL CONTENT */
 .ContentTitle {
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 500;
-  /* padding-bottom: 0.5em; */
   text-align: start;
+}
+
+@media screen and (max-width: 660px) {
+  .ContentTitle {
+    font-size: 2.5rem;
+  }
 }
 
 .Content {
@@ -124,6 +129,12 @@
 
 .ContentLeft {
   padding-right: 5em;
+}
+
+@media screen and (max-width: 1000px) {
+  .ContentLeft {
+    padding: 0;
+  }
 }
 
 .ContentLeft > *:not(:first-child) {
@@ -143,16 +154,30 @@
 .ContentLeft h3 {
   color: #437384;
   font-weight: 400;
+  font-size: 1rem;
   line-height: 1.8rem;
 }
 
 .ContentLeft p {
-  font-size: 1.1rem;
   line-height: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .ContentLeft h3,
+  .ContentLeft p {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+  }
 }
 
 .ContentRight {
   max-width: 30%;
+}
+
+@media screen and (max-width: 1000px) {
+  .ContentRight {
+    display: none;
+  }
 }
 
 .ContentRight img {

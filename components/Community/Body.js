@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 import BodyCard from "./BodyCard";
 import { SAC } from "./data/SAC";
 import { HIMA } from "./data/HIMA";
@@ -9,9 +11,16 @@ import styles from "../../styles/Community/Body.module.css";
 const Body = () => {
   return (
     <div className={styles.Body}>
-      <h1 className={styles.CommunitySubTitle} id="org">
+      <motion.h1
+        initial={{ x: -100, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.3 }}
+        viewport={{ once: true }}
+        className={styles.CommunitySubTitle}
+        id="org"
+      >
         ORGANIZATION
-      </h1>
+      </motion.h1>
       <div className={styles.CardWrapper}>
         {ORG.map((el) => {
           return (
@@ -31,9 +40,16 @@ const Body = () => {
           );
         })}
       </div>
-      <h1 className={styles.CommunitySubTitle} id="hima">
+      <motion.h1
+        initial={{ x: -100, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.3 }}
+        viewport={{ once: true }}
+        className={styles.CommunitySubTitle}
+        id="hima"
+      >
         HIMA
-      </h1>
+      </motion.h1>
       <div className={styles.CardWrapper}>
         {HIMA.map((el) => {
           return (
@@ -53,9 +69,16 @@ const Body = () => {
           );
         })}
       </div>
-      <h1 className={styles.CommunitySubTitle} id="sac">
+      <motion.h1
+        initial={{ x: -100, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.3 }}
+        viewport={{ once: true }}
+        className={styles.CommunitySubTitle}
+        id="sac"
+      >
         SAC &amp; SCC
-      </h1>
+      </motion.h1>
       <div className={styles.CardWrapper}>
         {SAC.map((el) => {
           return (
@@ -75,9 +98,16 @@ const Body = () => {
           );
         })}
       </div>
-      <h1 className={styles.CommunitySubTitle} id="sac">
+      <motion.h1
+        initial={{ x: -100, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.3 }}
+        className={styles.CommunitySubTitle}
+        viewport={{ once: true }}
+        id="sac"
+      >
         COMMITTEE
-      </h1>
+      </motion.h1>
       <div className={styles.CardWrapper}>
         {COMMITTEE.map((el) => {
           return (

@@ -59,131 +59,172 @@
   overflow: hidden;
 }
 
-.Wording > * {
-  position: inherit;
-  width: 100%;
-  height: 100%;
+.Wording {
+  position: relative;
 
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.Wording h2 {
+.Wording > * {
   position: absolute;
+}
+
+.Wording h2 {
   font-size: 9rem;
   letter-spacing: -0.5rem;
 }
 
+.Wording p {
+  font-size: 1.2rem;
+}
+
 .Chain {
+  top: 60px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.Chain h2 {
   font-family: "Lora", serif;
   font-weight: 200;
-  top: 12%;
-  transform: translateX(-250px);
+  transform: translateX(-240px);
+}
+
+.Chain p {
+  transform: translateX(-300px);
+  text-align: end;
 }
 
 .LeAmica {
+  top: 200px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.LeAmica h2 {
   font-weight: 500;
-  top: 20%;
   transform: translateX(350px);
+}
+
+.LeAmica p {
+  transform: translateX(380px);
 }
 
 @media screen and (max-width: 1250px) {
   .Wording h2 {
-    font-size: 7rem;
+    font-size: 8rem;
   }
 
-  .Chain {
-    transform: translate(-210px);
+  .Chain h2 {
+    transform: translateX(-220px);
   }
 
-  .LeAmica {
-    transform: translateX(300px);
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .ChainAmicaWrapper {
-    min-height: 300vh;
+  .Chain p {
+    transform: translateX(-280px);
   }
 
-  .Wording h2 {
-    font-size: 6rem;
+  .LeAmica h2 {
+    transform: translateX(320px);
   }
 
-  .Chain {
-    top: 12%;
-    transform: translate(-170px);
-  }
-
-  .LeAmica {
-    top: 18%;
-    transform: translateX(240px);
-  }
-}
-
-@media screen and (max-width: 800px) {
-  /* .ChainAmicaWrapper {
-    min-height: 250vh;
-  } */
-
-  .Wording h2 {
-    font-size: 5.5rem;
-  }
-
-  .Chain {
-    transform: translate(-150px);
-  }
-
-  .LeAmica {
-    transform: translateX(220px);
-  }
-}
-
-@media screen and (max-width: 750px) {
-  /* .Boat {
-    position: absolute;
-    left: 97%;
-    top: -97em;
-    transform: translateX(-50%) scale(0.3);
-  } */
-
-  .Boat {
-    display: none;
-  }
-
-  .Wording {
-    display: block;
-    margin-top: 3em;
-  }
-
-  .Wording h2 {
-    position: static;
-  }
-
-  .Chain {
-    transform: translate(0);
-  }
-
-  .LeAmica {
-    transform: translateX(0);
+  .LeAmica p {
+    transform: translateX(350px);
   }
 }
 
 @media screen and (min-height: 800px) {
+  .Chain {
+    top: 100px;
+  }
+
   .LeAmica {
-    top: 18%;
+    top: 240px;
   }
 }
 
-@media screen and (min-height: 1050px) {
-  .LeAmica {
-    transform: translateX(370px);
+@media screen and (max-width: 1135px) {
+  .Wording h2 {
+    font-size: 6rem;
+  }
+
+  .Wording p {
+    font-size: 1rem;
+  }
+
+  .Chain h2 {
+    transform: translateX(-200px);
+  }
+
+  .Chain p {
+    transform: translateX(-240px);
+  }
+
+  .LeAmica h2 {
+    transform: translateX(250px);
+  }
+
+  .LeAmica p {
+    transform: translateX(280px);
   }
 }
 
-@media screen and (min-height: 1200px) {
+.leamicaBreakLine {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .leamicaBreakLine {
+    display: block;
+  }
+
+  .Wording h2 {
+    font-size: 5rem;
+  }
+
+  .LeAmica h2 {
+    transform: translateX(220px);
+  }
+
+  .LeAmica p {
+    transform: translateX(240px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Chain {
+    align-items: center;
+  }
+
   .LeAmica {
-    top: 17%;
+    align-items: center;
+    padding-top: 1.5em;
+  }
+
+  .Chain h2 {
+    transform: translateX(0);
+  }
+
+  .Chain p {
+    transform: translateX(0);
+    text-align: center;
+  }
+
+  .LeAmica h2 {
+    transform: translateX(0);
+  }
+
+  .LeAmica p {
+    transform: translateX(0);
+    text-align: center;
+  }
+
+  .BoatWrapper {
+    display: none;
   }
 }

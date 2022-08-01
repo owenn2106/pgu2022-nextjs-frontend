@@ -1,5 +1,7 @@
-import styles from "../../styles/Home/ChainAmica.module.css";
 import { motion } from "framer-motion";
+import ChainAmicaDetail from "./ChainAmicaDetail";
+
+import styles from "../../styles/Home/ChainAmica.module.css";
 
 const ChainAmica = () => {
   return (
@@ -29,8 +31,13 @@ const ChainAmica = () => {
               delay: 1,
             }}
             viewport={{ once: true }}
+            className={styles.Chain}
           >
-            <h2 className={styles.Chain}>CHAIN</h2>
+            <h2>CHAIN</h2>
+            <p>
+              The five essential values that will help you <br />
+              survive university life and beyond
+            </p>
           </motion.div>
           <motion.div
             initial={{ opacity: 0 }}
@@ -39,11 +46,19 @@ const ChainAmica = () => {
               delay: 1,
             }}
             viewport={{ once: true }}
+            className={styles.LeAmica}
           >
-            <h2 className={styles.LeAmica}>LEAMICA</h2>
+            <h2>LEAMICA</h2>
+            <p>
+              Represents the characteristics{" "}
+              <br className={styles.leamicaBreakLine} />
+              of a Prasmulyan
+            </p>
           </motion.div>
         </div>
       </div>
+
+      <ChainAmicaDetail />
 
       <motion.div
         className={styles.BoatWrapper}

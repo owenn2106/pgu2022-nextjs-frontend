@@ -34,16 +34,22 @@ const Body = () => {
 
   return (
     <div className={styles.Body}>
-      <motion.h1
-        initial={{ x: -100, opacity: 0 }}
-        whileInView={{ x: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.3 }}
-        viewport={{ once: true }}
-        className={styles.CommunitySubTitle}
-        id="org"
-      >
-        ORGANIZATION
-      </motion.h1>
+      {isMobile ? (
+        <h1 className={styles.CommunitySubTitle} id="org">
+          ORGANIZATION
+        </h1>
+      ) : (
+        <motion.h1
+          initial={{ x: -100, opacity: 0 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.3 }}
+          viewport={{ once: true }}
+          className={styles.CommunitySubTitle}
+          id="org"
+        >
+          ORGANIZATION
+        </motion.h1>
+      )}
       <div className={styles.CardWrapper}>
         {isMobile
           ? ORG.map((el) => {
@@ -81,16 +87,23 @@ const Body = () => {
               );
             })}
       </div>
-      <motion.h1
-        initial={{ x: -100, opacity: 0 }}
-        whileInView={{ x: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.3 }}
-        viewport={{ once: true }}
-        className={styles.CommunitySubTitle}
-        id="hima"
-      >
-        HIMA
-      </motion.h1>
+
+      {isMobile ? (
+        <h1 className={styles.CommunitySubTitle} id="hima">
+          HIMA
+        </h1>
+      ) : (
+        <motion.h1
+          initial={{ x: -100, opacity: 0 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.3 }}
+          viewport={{ once: true }}
+          className={styles.CommunitySubTitle}
+          id="hima"
+        >
+          HIMA
+        </motion.h1>
+      )}
       <div className={styles.CardWrapper}>
         {isMobile
           ? HIMA.map((el) => {
@@ -128,16 +141,23 @@ const Body = () => {
               );
             })}
       </div>
-      <motion.h1
-        initial={{ x: -100, opacity: 0 }}
-        whileInView={{ x: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.3 }}
-        viewport={{ once: true }}
-        className={styles.CommunitySubTitle}
-        id="sac"
-      >
-        SAC &amp; SCC
-      </motion.h1>
+
+      {isMobile ? (
+        <h1 className={styles.CommunitySubTitle} id="sac">
+          SAC &amp; SCC
+        </h1>
+      ) : (
+        <motion.h1
+          initial={{ x: -100, opacity: 0 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.3 }}
+          viewport={{ once: true }}
+          className={styles.CommunitySubTitle}
+          id="sac"
+        >
+          SAC &amp; SCC
+        </motion.h1>
+      )}
       <div className={styles.CardWrapper}>
         {isMobile
           ? SAC.map((el) => {
@@ -175,16 +195,23 @@ const Body = () => {
               );
             })}
       </div>
-      <motion.h1
-        initial={{ x: -100, opacity: 0 }}
-        whileInView={{ x: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.3 }}
-        className={styles.CommunitySubTitle}
-        viewport={{ once: true }}
-        id="committee"
-      >
-        COMMITTEE
-      </motion.h1>
+
+      {isMobile ? (
+        <h1 className={styles.CommunitySubTitle} id="committee">
+          COMMITTEE
+        </h1>
+      ) : (
+        <motion.h1
+          initial={{ x: -100, opacity: 0 }}
+          whileInView={{ x: 0, opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.3 }}
+          className={styles.CommunitySubTitle}
+          viewport={{ once: true }}
+          id="committee"
+        >
+          COMMITTEE
+        </motion.h1>
+      )}
       <div className={styles.CardWrapper}>
         {isMobile
           ? COMMITTEE.map((el) => {

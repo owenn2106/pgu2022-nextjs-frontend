@@ -69,6 +69,7 @@ const Header = () => {
         <motion.h1
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
           transition={{
             duration: 0.5,
           }}
@@ -78,6 +79,7 @@ const Header = () => {
         <motion.h3
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
           transition={{
             duration: 0.5,
           }}

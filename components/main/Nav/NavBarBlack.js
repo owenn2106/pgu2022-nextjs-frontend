@@ -28,7 +28,7 @@ const NavBarBlack = () => {
       >
         <div className={styles.logoWrapper}>
           <Image
-            src="/images/pgu-dark.png"
+            src="/images/pgu-dark.webp"
             alt="Prasmul Gear Up 2022"
             height={40}
             width={72}

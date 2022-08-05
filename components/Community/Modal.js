@@ -22,7 +22,6 @@ const Modal = ({ open, onClose, ...props }) => {
       onClick={onClose}
     >
       <div className={styles.ModalContent}>
-        <p className={styles.CloseSign}>Click Anywhere to Close</p>
         <div className={styles.ModalBody}>{props.children}</div>
       </div>
     </div>

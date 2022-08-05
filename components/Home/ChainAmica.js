@@ -72,7 +72,7 @@ const ChainAmica = () => {
       >
         <img
           className={styles.Boat}
-          src="/images/backgrounds/boat.png/"
+          src="/images/backgrounds/boat.webp"
           alt="boat"
         />
       </motion.div>

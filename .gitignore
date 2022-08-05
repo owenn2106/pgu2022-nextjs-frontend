@@ -34,5 +34,6 @@ yarn-error.log*
 # vscode
 .vscode
 
-# photoshop files
+# photoshop & png files
+PNG/
 *.psd

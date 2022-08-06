@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import MenuLeft from "./MenuLeft";
 import MenuRight from "./MenuRight";
+import { motion } from "framer-motion";
 
 import styles from "../../../styles/Navbar.module.css";
 
@@ -24,10 +25,20 @@ const Menu = ({ open, toggle }) => {
         <MenuRight toggle={toggle} />
       </div>
       <div className={styles.copyright}>
-        <p>
+        <motion.p
+          initial={{ y: 20, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.3 }}
+        >
           <span>&#169;</span>2022 Prasmul Gear Up
-        </p>
-        <p>All Rights Reserved</p>
+        </motion.p>
+        <motion.p
+          initial={{ y: 20, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.4 }}
+        >
+          All Rights Reserved
+        </motion.p>
       </div>
     </StyledMenu>
   );

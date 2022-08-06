@@ -1,5 +1,5 @@
 import styles from "../../styles/Home/Home.module.css";
-import { motion, AnimatePresence, m } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 
 const Header = () => {
   const headerVariants = {

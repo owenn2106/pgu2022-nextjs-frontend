@@ -1,18 +1,30 @@
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 import styles from "../../../styles/Navbar.module.css";
 
 const MenuRight = ({ toggle }) => {
   return (
     <div className={styles.menuRight}>
-      <div className={styles.navItem}>
+      <motion.div
+        initial={{ x: -20, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.3 }}
+        className={styles.navItem}
+      >
         <Link href="/">
           <a className={styles.navLinks} onClick={toggle}>
             Home
           </a>
         </Link>
-      </div>
-      <div className={styles.navItem} onClick={toggle}>
+      </motion.div>
+      <motion.div
+        initial={{ x: -20, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.4 }}
+        className={styles.navItem}
+        onClick={toggle}
+      >
         <Link href="/">
           <a
             className={styles.navLinks}
@@ -28,8 +40,14 @@ const MenuRight = ({ toggle }) => {
             About Us
           </a>
         </Link>
-      </div>
-      <div className={styles.navItem} onClick={toggle}>
+      </motion.div>
+      <motion.div
+        initial={{ x: -20, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.5 }}
+        className={styles.navItem}
+        onClick={toggle}
+      >
         <Link href="/">
           <a
             className={styles.navLinks}
@@ -45,21 +63,31 @@ const MenuRight = ({ toggle }) => {
             Program Overview
           </a>
         </Link>
-      </div>
-      <div className={styles.navItem}>
+      </motion.div>
+      <motion.div
+        initial={{ x: -20, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.6 }}
+        className={styles.navItem}
+      >
         <Link href="/leaderboard/">
           <a className={styles.navLinks} onClick={toggle}>
             Leaderboard
           </a>
         </Link>
-      </div>
-      <div className={styles.navItem}>
+      </motion.div>
+      <motion.div
+        initial={{ x: -20, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.7 }}
+        className={styles.navItem}
+      >
         <Link href="/community/">
           <a className={styles.navLinks} onClick={toggle}>
             Community Life
           </a>
         </Link>
-      </div>
+      </motion.div>
     </div>
   );
 };

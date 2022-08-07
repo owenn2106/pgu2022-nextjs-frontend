@@ -37,7 +37,7 @@ const MenuLeft = () => {
             />
           </motion.a>
           <motion.a
-            href="https://www.google.com"
+            href="https://liff.line.me/1645278921-kWRPP32q/?accountId=sdr1284c"
             target="_blank"
             rel="noopener noreferrer"
             initial={{ y: -20, opacity: 0 }}
@@ -56,7 +56,7 @@ const MenuLeft = () => {
             />
           </motion.a>
           <motion.a
-            href="https://www.google.com"
+            href="mailto:pgu@pmbs.ac.id"
             target="_blank"
             rel="noopener noreferrer"
             initial={{ y: -20, opacity: 0 }}

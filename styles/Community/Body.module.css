@@ -120,6 +120,12 @@
   }
 }
 
+@media screen and (max-width: 500px) {
+  .ContentTitle {
+    font-size: 1.5rem;
+  }
+}
+
 .Content {
   height: 100%;
   display: flex;

@@ -18,7 +18,7 @@ export const COMMITTEE = [
     logo: "/images/logo-committee/tedx.png",
     description: "A place to learn share ideas and experiences",
     body1:
-      "TEDxUniversitasPrasetiyaMulya 2022 is a non-profit organization under TED (Technology, Entertainment, and Design) with the aim and vision of “ideas worth spreading”. Covering all topics from science, and business to global issues, TED decided that more people are willing to share their ideas but haven’t found the right platform. Hence, TEDx is born to accommodate everyone to unleash their ideas, inspire, and inform. TEDxUniversitasPrasetiyaMulya started in 2015 as a platform for the Universitas Prasetiya Mulya community to learn and share ideas and experiences.",
+      "TEDxUniversitasPrasetiyaMulya is a non-profit organization under TED (Technology, Entertainment, and Design) with the aim and vision of “ideas worth spreading”. TED covers all topics from science, and business to global issues. TEDx is born to accommodate everyone to unleash their ideas, inspire, and inform through small communities. TEDxUniversitasPrasetiyaMulya started in 2015 as a platform for Prasmulyan to learn and share ideas and experiences.",
     body2:
       "TEDxUniversitasPrasetiyaMulya is highly suggested for anyone who needs a platform to channel their strong ideas and aspire to seek inspirations from various fields. We uphold curiosity, skepticism, inspiration, and action.",
     cp_name: "Amabel Angel",

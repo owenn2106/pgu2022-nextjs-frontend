@@ -11,24 +11,8 @@ import Link from "next/link";
 
 const NavBar = () => {
   const [open, setOpen] = useState(false);
-  const [navBackground, setNavBackground] = useState("transparent");
 
   const router = useRouter();
-
-  let listener = null;
-  useEffect(() => {
-    listener = document.addEventListener("scroll", (e) => {
-      var scrolled = document.scrollingElement.scrollTop;
-      if (scrolled >= 120) {
-        setNavBackground("rgba(0, 0, 0, 0.9)");
-      } else {
-        setNavBackground("transparent");
-      }
-    });
-    return () => {
-      document.removeEventListener("scroll", listener);
-    };
-  }, [navBackground]);
 
   const toggle = () => {
     setOpen(!open);
@@ -43,12 +27,8 @@ const NavBar = () => {
           left: 0,
           width: "100%",
           height: "12vh",
-          backgroundColor: navBackground,
+          background: "transparent",
           transition: "all ease-out 0.2s",
-          boxShadow:
-            navBackground === "rgba(0, 0, 0, 0.9)"
-              ? "0 2px 10px 0 rgba(0, 0, 0, 0.3)"
-              : "none",
           zIndex: 99,
         }}
       >

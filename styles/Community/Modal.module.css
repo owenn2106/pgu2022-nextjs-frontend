@@ -47,5 +47,17 @@
   height: 100%;
   width: 100%;
 
-  padding: 4em 4em;
+  padding: 4em;
+}
+
+@media screen and (max-width: 768px) {
+  .ModalBody {
+    padding: 2em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .ModalBody {
+    padding: 1.2em;
+  }
 }

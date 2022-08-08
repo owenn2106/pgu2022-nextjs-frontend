@@ -5,9 +5,9 @@ export const ORG = [
     logo: "/images/logo-org/sb.png",
     description: "Largest Student Organization",
     body1:
-      "Student Board is the largest organization in Prasetiya Mulya as an independent, democratic free, and responsible student organization. We aim to enhance the quality of Prasmulyan based on the foundation of CHAIN and LEAMICA. Our mission is to increase Prasmulyan's sense of belonging toward the programs of Student Board, build personal development of Prasmulyan through the programs of Student Board, collect and distribute the voice and aspiration of Prasmulyan, and make the value of togetherness implemented in each program of Student Board.",
+      "Student Board is the largest organization in Prasetiya Mulya as an independent, democratic free, and responsible student organization. We aim to enhance the quality of Prasmulyan based on the foundation of CHAIN and LEAMICA. Our mission is to increase Prasmulyan's sense of belonging toward the programs of Student Board, build personal development of Prasmulyan through various programs, collect and distribute voice and aspirations of Prasmulyan, and implement togetherness in every Student Board's program.",
     body2:
-      "Student Board is for every Prasmulyan as our motto is 'Understanding Is Our Priority'. We provide events, projects, and SAC/SCC that will give every member a new experience, family, and impact for you as an individual.",
+      "Our motto is 'Understanding Is Our Priority'. We provide events, projects, and SAC/SCC that will give every member a new experience, family, and impact as an individual.",
     cp_name: "Albert Pangestu",
     cp_line: "albertpangestu_2001",
     cp_wa: "0818982288",

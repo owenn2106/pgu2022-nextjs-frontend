@@ -55,9 +55,3 @@
     padding: 2em;
   }
 }
-
-@media screen and (max-width: 500px) {
-  .ModalBody {
-    padding: 1.2em;
-  }
-}

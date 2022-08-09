@@ -7,29 +7,44 @@ const Recap = () => {
     <div className={styles.recapWrapper}>
       <div className={styles.whiteBoxWrapper}>
         <div className={styles.recapHeader}>
-          <div className={styles.dateWrapper}></div>
-          <div className={styles.valueWrapper}></div>
+          <div className={styles.dateWrapper}>
+            <h2>Daily Recap</h2>
+            <h3>09 August 2022</h3>
+          </div>
+          <div className={styles.valueWrapper}>
+            <div>
+              <p>Interpersonal</p>
+              <p>Relationship</p>
+            </div>
+            <hr />
+            <p>Humility</p>
+          </div>
         </div>
         <div className={styles.recapContent}>
           <div className={styles.recapTitle}>
-            <h1>Welcome Aboard</h1>
+            <h3>Welcome Aboard</h3>
           </div>
           <div className={styles.recapBody}>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum quae
-              vitae quos officiis id amet voluptatem, fugit iste beatae
-              reiciendis accusantium ducimus debitis similique aut delectus,
-              deserunt hic laboriosam. Maxime, tenetur atque. Magni quas nemo
-              labore, ducimus quod rerum dolores, nulla earum velit corrupti
-              magnam! Inventore odio vero veniam velit.
+              On the first day, Voyagers were informed of CHAIN LEAMICA as the
+              values and characters of a Prasmulyan. The voyagers were
+              introduced to their new home, Universitas Prasetiya Mulya from
+              sessions brought by Prof. Dr. Djisman Simandjuntak, Dr. Rudy
+              Handoko, and Franky Supriyadi, Ph.D.
             </p>
+            <br />
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum quae
-              vitae quos officiis id amet voluptatem, fugit iste beatae
-              reiciendis accusantium ducimus debitis similique aut delectus,
-              deserunt hic laboriosam. Maxime, tenetur atque. Magni quas nemo
-              labore, ducimus quod rerum dolores, nulla earum velit corrupti
-              magnam! Inventore odio vero veniam velit.
+              Besides that, Interpersonal relationships and Humility were
+              introduced as the main focus of today. On this day, voyagers were
+              provided with some speaker sessions by Fellexandro Ruby and some
+              alumni of Universitas Prasetiya Mulya. They taught us how to
+              become an outstanding college student, by implementing those
+              values. Gear yourselves up for another exciting journey to come.
+            </p>
+            <br />
+            <p>
+              Aim for the sky, enjoy every step along the way, Because One Port
+              Makes All.
             </p>
           </div>
         </div>

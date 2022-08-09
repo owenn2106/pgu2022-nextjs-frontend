@@ -12,10 +12,127 @@
 
 .whiteBoxWrapper {
   background-color: #eee;
-  min-height: 60%;
-  width: 50%;
+  min-height: 520px;
+  max-width: 800px;
 
   position: absolute;
   bottom: 5%;
   left: 5%;
+
+  padding: 2em;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.dateWrapper > *,
+.valueWrapper > *,
+.recapTitle > *,
+.recapBody > * {
+  color: black;
+}
+
+.recapHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .recapHeader {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+}
+
+.dateWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 220px;
+
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  padding: 0.5em 1em;
+}
+
+@media screen and (max-width: 650px) {
+  .dateWrapper {
+    margin-bottom: 1.5em;
+  }
+}
+
+.dateWrapper > * {
+  font-size: 0.8rem;
+}
+
+.dateWrapper h3 {
+  font-weight: 200;
+}
+
+.valueWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .valueWrapper {
+    margin-bottom: 1em;
+  }
+}
+
+.valueWrapper > * {
+  font-size: 1.5rem;
+  letter-spacing: -0.05rem;
+}
+
+.valueWrapper div > * {
+  color: black;
+}
+
+@media screen and (max-width: 400px) {
+  .valueWrapper > * {
+    font-size: 1.2rem;
+  }
+}
+
+.valueWrapper hr {
+  width: 100px;
+  margin: 0 0.5em;
+}
+
+@media screen and (max-width: 450px) {
+  .valueWrapper hr {
+    width: 50px;
+  }
+}
+
+.recapTitle h3 {
+  font-size: 4rem;
+  font-weight: 600;
+  letter-spacing: -0.2rem;
+  padding-bottom: 0.2em;
+}
+
+@media screen and (max-width: 500px) {
+  .recapTitle h3 {
+    font-size: 2.5rem;
+    letter-spacing: -0.05rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .recapTitle h3 {
+    font-size: 2rem;
+  }
+}
+
+.recapBody p {
+  font-family: "Lora", serif;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  letter-spacing: -0.03rem;
 }

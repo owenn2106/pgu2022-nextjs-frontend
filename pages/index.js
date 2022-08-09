@@ -7,7 +7,7 @@ import favicon from "../public/favicon.ico";
 import Day1 from "../components/Home/DailyHeaders/Day1";
 // import Day2 from "../components/Home/DailyHeaders/Day2";
 // import Day3 from "../components/Home/DailyHeaders/Day3";
-// import Recap from "../components/Home/Recap";
+import Recap from "../components/Home/Recap";
 import Description from "../components/Home/Description";
 import About from "../components/Home/About";
 import LodeFA from "../components/Home/LodeFA";
@@ -44,7 +44,7 @@ export default function Home() {
       <Day1 />
       {/* <Day2 /> */}
       {/* <Day3 /> */}
-      {/* <Recap /> */}
+      <Recap />
       <Description />
       <About />
       <LodeFA />

@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 import favicon from "../public/favicon.ico";
 
 // Import Components
-import Header from "../components/Home/Header";
-// import Day1 from "../components/Home/DailyHeaders/Day1";
+// import Header from "../components/Home/Header";
+import Day1 from "../components/Home/DailyHeaders/Day1";
 // import Day2 from "../components/Home/DailyHeaders/Day2";
 // import Day3 from "../components/Home/DailyHeaders/Day3";
 // import Recap from "../components/Home/Recap";
@@ -40,8 +40,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header />
-      {/* <Day1 /> */}
+      {/* <Header /> */}
+      <Day1 />
       {/* <Day2 /> */}
       {/* <Day3 /> */}
       {/* <Recap /> */}

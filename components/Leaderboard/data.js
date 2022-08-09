@@ -45,7 +45,7 @@ export const data = [
   { rank: 44, team_name: "Bajau", score: 78.0, grade: "AB" },
   { rank: 45, team_name: "Linosa", score: 78.0, grade: "AB" },
   { rank: 46, team_name: "Marchena", score: 77.0, grade: "AB" },
-  { rank: 47, team_name: "Tanzania", score: 77.049, grade: "AB" },
+  { rank: 47, team_name: "Tanzania", score: 77.0, grade: "AB" },
   { rank: 48, team_name: "Melville", score: 77.0, grade: "AB" },
   { rank: 49, team_name: "Victoria", score: 77.0, grade: "AB" },
   { rank: 50, team_name: "Majorca", score: 77.0, grade: "AB" },

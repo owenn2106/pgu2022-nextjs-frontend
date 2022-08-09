@@ -1,11 +1,16 @@
-import React from "react";
+import { motion } from "framer-motion";
 
 import styles from "../../styles/Home/Recap.module.css";
 
 const Recap = () => {
   return (
     <div className={styles.recapWrapper}>
-      <div className={styles.whiteBoxWrapper}>
+      <motion.div
+        initial={{ y: 20, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.5 }}
+        className={styles.whiteBoxWrapper}
+      >
         <div className={styles.recapHeader}>
           <div className={styles.dateWrapper}>
             <h2>Daily Recap</h2>
@@ -48,7 +53,7 @@ const Recap = () => {
             </p>
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };

@@ -49,8 +49,7 @@ const leaderboard = () => {
         <p
           style={{ textAlign: "center", color: "#437384", fontSize: "1.5rem" }}
         >
-          {/* Last updated: 01 August 2022 13:40:00 WIB */}
-          Last updated: -
+          Last updated: 09 August 2022 18:30:00 WIB
         </p>
         <p style={{ textAlign: "center", paddingTop: "2em" }}>
           Use{" "}
@@ -78,10 +77,10 @@ const leaderboard = () => {
           to find your team number!
         </p>
         <div style={{ marginTop: 60 }}>
-          {/* <LeaderboardTable data={data} /> */}
-          <h2 style={{ textAlign: "center" }}>
+          <LeaderboardTable data={data} />
+          {/* <h2 style={{ textAlign: "center" }}>
             Leaderboard has not been updated. Check again later!
-          </h2>
+          </h2> */}
         </div>
       </div>
     </div>

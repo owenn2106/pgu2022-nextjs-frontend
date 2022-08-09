@@ -41,7 +41,7 @@ const Day1 = () => {
             <motion.h1 variants={textVariants}>Through the</motion.h1>
             <motion.h1 variants={textVariants}>SEVEN SEAS</motion.h1>
             <motion.p variants={textVariants}>
-              Explore your chances when sea's the limit.
+              Explore your chances when sea&apos;s the limit.
             </motion.p>
           </motion.div>
         </AnimatePresence>

@@ -1,4 +1,4 @@
-.header {
+/* .header {
   background: url("/images/backgrounds/day1.webp");
   background-size: cover;
   background-position: center;
@@ -91,7 +91,7 @@
     font-size: 3rem;
     line-height: 4rem;
   }
-}
+} */
 
 /* 
 ##########################################################################
@@ -99,7 +99,7 @@ DAY 2
 ##########################################################################
 */
 
-/* .header {
+.header {
   background: url("/images/backgrounds/day2.webp");
   background-size: cover;
   background-position: center;
@@ -193,7 +193,7 @@ DAY 2
     font-size: 3rem;
     line-height: 4rem;
   }
-} */
+}
 
 /* 
 ##########################################################################

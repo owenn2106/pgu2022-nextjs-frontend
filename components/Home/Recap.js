@@ -14,7 +14,7 @@ const Recap = () => {
         <div className={styles.recapHeader}>
           <div className={styles.dateWrapper}>
             <h2>Daily Recap</h2>
-            <h3>09 August 2022</h3>
+            <h3>10 August 2022</h3>
           </div>
           <div className={styles.valueWrapper}>
             <div>

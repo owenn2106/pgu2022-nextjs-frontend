@@ -18,39 +18,38 @@ const Recap = () => {
           </div>
           <div className={styles.valueWrapper}>
             <div>
-              <p>Interpersonal</p>
-              <p>Relationship</p>
+              <p>Non-</p>
+              <p>Discrimination</p>
             </div>
             <hr />
-            <p>Humility</p>
+            <p>Communication</p>
           </div>
         </div>
         <div className={styles.recapContent}>
           <div className={styles.recapTitle}>
-            <h3>Welcome Aboard</h3>
+            <h3>Through The Seven Seas</h3>
           </div>
           <div className={styles.recapBody}>
             <p>
-              On the first day, Voyagers were informed of CHAIN LEAMICA as the
-              values and characters of a Prasmulyan. The voyagers were
-              introduced to their new home, Universitas Prasetiya Mulya from
-              sessions brought by Prof. Dr. Djisman Simandjuntak, Dr. Rudy
-              Handoko, and Franky Supriyadi, Ph.D.
+              Our second day of Prasmul Gear Up 2022 has shown us the importance
+              of non-discrimination and communication in our lives. Voyagers had
+              speaker sessions brought by Liko Subakti, CEO of “Project Seed”,
+              Dea Rizkita, and Jessica Mila. As Kak Dea Rizkita said, open up as
+              many opportunities as you can for everyone by not being
+              discriminatory as college is a place where we may develop
+              relations and grow a mature attitude. Kak Jessica Mila also said
+              that it is crucial to be aware of our own flaws in order to
+              understand how to overcome them.
             </p>
             <br />
             <p>
-              Besides that, Interpersonal relationships and Humility were
-              introduced as the main focus of today. On this day, voyagers were
-              provided with some speaker sessions by Fellexandro Ruby and some
-              alumni of Universitas Prasetiya Mulya. They taught us how to
-              become an outstanding college student, by implementing those
-              values. Gear yourselves up for another exciting journey to come.
+              Apart from that, the A.P.A Race taught them practical teamwork
+              skills and to navigate the path around their new home. With those
+              skills, voyagers are expected to set their own principles and be
+              open to the many opportunities ahead of them to grow even further.
             </p>
             <br />
-            <p>
-              Aim for the sky, enjoy every step along the way, Because One Port
-              Makes All.
-            </p>
+            <p>Tides will get higher the next day, stay alert.</p>
           </div>
         </div>
       </motion.div>

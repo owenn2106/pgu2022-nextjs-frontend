@@ -16,6 +16,12 @@
   }
 }
 
+@media screen and (max-width: 500px) {
+  .recapWrapper {
+    min-height: 115vh;
+  }
+}
+
 .whiteBoxWrapper {
   background-color: #eee;
   min-height: 520px;
@@ -95,11 +101,21 @@
   letter-spacing: -0.05rem;
 }
 
+.valueWrapper div {
+  display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  .valueWrapper div {
+    flex-direction: column;
+  }
+}
+
 .valueWrapper div > * {
   color: black;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .valueWrapper > * {
     font-size: 1.2rem;
   }
@@ -110,9 +126,15 @@
   margin: 0 0.5em;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
   .valueWrapper hr {
     width: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .valueWrapper hr {
+    width: 25px;
   }
 }
 
@@ -123,16 +145,23 @@
   padding-bottom: 0.2em;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
   .recapTitle h3 {
     font-size: 2.5rem;
     letter-spacing: -0.05rem;
   }
 }
 
+@media screen and (max-width: 500px) {
+  .recapTitle h3 {
+    font-size: 1.5rem;
+    letter-spacing: -0.05rem;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .recapTitle h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 

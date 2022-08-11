@@ -33,17 +33,17 @@ const Recap = () => {
               On this day, Voyagers are focused on the values of caring and
               integrity, as it allows students to develop creativity and
               acknowledgment in work. Today&apos;s sessions were brought by Aria
-              Widyanto with the topic “Action speaks Louder than Words”,
-              "Leadership" by Prof Agus W. Soehadi Ph.D., and "Anti Corruption"
-              by Erlangga Adikusumah.
+              Widyanto with the topic &quot;Action speaks Louder than
+              Words&quot;, &quot;Leadership&quot; by Prof Agus W. Soehadi Ph.D.,
+              and &quot;Anti Corruption&quot; by Erlangga Adikusumah.
             </p>
             <br />
             <p>
-              One of Aria&apos;s words that could be quoted is “The drive for
-              caring can start from the realization that people cannot survive
-              on their own. When we acknowledge our dependence on others, we
-              feel compelled to help those who are in need”. That&apos;s why we
-              have to show our act of kindness to everyone.
+              One of Aria&apos;s words that could be quoted is &quot;The drive
+              for caring can start from the realization that people cannot
+              survive on their own. When we acknowledge our dependence on
+              others, we feel compelled to help those who are in need&quot;.
+              That&apos;s why we have to show our act of kindness to everyone.
             </p>
             <br />
             <p>

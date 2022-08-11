@@ -14,42 +14,49 @@ const Recap = () => {
         <div className={styles.recapHeader}>
           <div className={styles.dateWrapper}>
             <h2>Daily Recap</h2>
-            <h3>10 August 2022</h3>
+            <h3>11 August 2022</h3>
           </div>
           <div className={styles.valueWrapper}>
             <div>
-              <p>Non-</p>
-              <p>Discrimination</p>
+              <p>Caring</p>
             </div>
             <hr />
-            <p>Communication</p>
+            <p>Integrity</p>
           </div>
         </div>
         <div className={styles.recapContent}>
           <div className={styles.recapTitle}>
-            <h3>Through The Seven Seas</h3>
+            <h3>Sea Legs Shall Shake</h3>
           </div>
           <div className={styles.recapBody}>
             <p>
-              Our second day of Prasmul Gear Up 2022 has shown us the importance
-              of non-discrimination and communication in our lives. Voyagers had
-              speaker sessions brought by Liko Subakti, CEO of “Project Seed”,
-              Dea Rizkita, and Jessica Mila. As Kak Dea Rizkita said, open up as
-              many opportunities as you can for everyone by not being
-              discriminatory as college is a place where we may develop
-              relations and grow a mature attitude. Kak Jessica Mila also said
-              that it is crucial to be aware of our own flaws in order to
-              understand how to overcome them.
+              On this day, Voyagers are focused on the values of caring and
+              integrity, as it allows students to develop creativity and
+              acknowledgment in work. Today&apos;s sessions were brought by Aria
+              Widyanto with the topic “Action speaks Louder than Words”,
+              "Leadership" by Prof Agus W. Soehadi Ph.D., and "Anti Corruption"
+              by Erlangga Adikusumah.
             </p>
             <br />
             <p>
-              Apart from that, the A.P.A Race taught them practical teamwork
-              skills and to navigate the path around their new home. With those
-              skills, voyagers are expected to set their own principles and be
-              open to the many opportunities ahead of them to grow even further.
+              One of Aria&apos;s words that could be quoted is “The drive for
+              caring can start from the realization that people cannot survive
+              on their own. When we acknowledge our dependence on others, we
+              feel compelled to help those who are in need”. That&apos;s why we
+              have to show our act of kindness to everyone.
             </p>
             <br />
-            <p>Tides will get higher the next day, stay alert.</p>
+            <p>
+              Voyagers also participated in the Scavenger Hunt, teaching them to
+              work as a whole with moral principles. They must approach
+              committees as a team to enhance their knowledge of campus life.
+            </p>
+            <br />
+            <p>
+              Caring and integrity are crucial as it allows students to develop
+              creativity and acknowledgment in work. Brace yourselves, a storm
+              is coming.
+            </p>
           </div>
         </div>
       </motion.div>

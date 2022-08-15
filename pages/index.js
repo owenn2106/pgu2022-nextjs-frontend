@@ -6,7 +6,10 @@ import favicon from "../public/favicon.ico";
 // import Header from "../components/Home/Header";
 // import Day1 from "../components/Home/DailyHeaders/Day1";
 // import Day2 from "../components/Home/DailyHeaders/Day2";
-import Day3 from "../components/Home/DailyHeaders/Day3";
+// import Day3 from "../components/Home/DailyHeaders/Day3";
+import Day4 from "../components/Home/DailyHeaders/Day4";
+// import Day5 from "../components/Home/DailyHeaders/Day5";
+// import Day6 from "../components/Home/DailyHeaders/Day6";
 import Recap from "../components/Home/Recap";
 import Description from "../components/Home/Description";
 import About from "../components/Home/About";
@@ -43,7 +46,10 @@ export default function Home() {
       {/* <Header /> */}
       {/* <Day1 /> */}
       {/* <Day2 /> */}
-      <Day3 />
+      {/* <Day3 /> */}
+      <Day4 />
+      {/* <Day5 /> */}
+      {/* <Day6 /> */}
       <Recap />
       <Description />
       <About />

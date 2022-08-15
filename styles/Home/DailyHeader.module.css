@@ -201,7 +201,7 @@ DAY 3
 ##########################################################################
 */
 
-.header {
+/* .header {
   background: url("/images/backgrounds/day3.webp");
   background-size: cover;
   background-position: center;
@@ -294,4 +294,289 @@ DAY 3
     font-size: 3rem;
     line-height: 4rem;
   }
+} */
+
+/* 
+##########################################################################
+DAY 4
+##########################################################################
+*/
+
+.header {
+  background: url("/images/backgrounds/day4.webp");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  min-height: 100vh;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+@media screen and (max-width: 768px) {
+  .header {
+    background-attachment: scroll;
+  }
+}
+
+.headerText div {
+  display: flex;
+  justify-content: center;
+}
+
+.headerText div > * {
+  font-size: 7rem;
+  letter-spacing: -0.05em;
+}
+
+.headerText div > *:nth-child(1) {
+  font-family: "Lora", serif;
+  font-weight: 300;
+}
+
+.headerText div > *:nth-child(2) {
+  padding-left: 0.2em;
+  padding-top: 0.05em;
+  font-weight: 400;
+}
+
+.headerText p {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 1.5em;
+}
+
+@media screen and (max-width: 900px) {
+  .headerText div > * {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .headerText div {
+    flex-direction: column;
+  }
+
+  .headerText div > *:nth-child(2) {
+    padding-left: 0.02em;
+  }
+
+  .headerText p {
+    text-align: start;
+    padding-top: 0.5em;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .headerText div > * {
+    font-size: 4rem;
+  }
+
+  .headerText p {
+    font-size: 1rem;
+  }
+}
+
+/* 
+##########################################################################
+DAY 5
+##########################################################################
+*/
+
+/* .header {
+  background: url("/images/backgrounds/day5.webp");
+  background-size: cover;
+  background-position: bottom center;
+  background-attachment: fixed;
+
+  min-height: 100vh;
+  width: 100%;
+
+  padding-top: 5%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    background-attachment: scroll;
+  }
+}
+
+.headerText {
+  padding-top: 7em;
+}
+
+.headerText > *:not(:last-child) {
+  font-size: 7rem;
+  line-height: 7rem;
+  letter-spacing: -0.05em;
+}
+
+.headerText > *:nth-child(1) {
+  font-family: "Lora", serif;
+  font-weight: 300;
+  padding-left: 20%;
+}
+
+.headerText > *:nth-child(2) {
+  text-align: end;
+  padding-right: 20%;
+  font-weight: 400;
+}
+
+.headerText p {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 8em;
+}
+
+@media screen and (max-width: 960px) {
+  .headerText > *:not(:last-child) {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .headerText > *:not(:last-child) {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .headerText {
+    padding-top: 0;
+  }
+
+  .headerText > *:not(:last-child) {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+
+  .headerText > *:nth-child(1) {
+    padding-left: 0;
+  }
+
+  .headerText > *:nth-child(2) {
+    text-align: start;
+    padding-right: 0;
+  }
+
+  .headerText p {
+    text-align: start;
+    padding-right: 0;
+    padding-left: 2%;
+    font-size: 1rem;
+    padding-top: 1em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .headerText > *:not(:last-child) {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+} */
+
+/* 
+##########################################################################
+DAY 6
+##########################################################################
+*/
+
+/* .header {
+  background: url("/images/backgrounds/day6.webp");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  min-height: 100vh;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    background-attachment: scroll;
+  }
+}
+
+.headerText > *:not(:last-child) {
+  font-size: 7rem;
+  line-height: 7rem;
+  letter-spacing: -0.05em;
+}
+
+.headerText > *:nth-child(1) {
+  font-family: "Lora", serif;
+  font-weight: 300;
+  padding-left: 10%;
+}
+
+.headerText > *:nth-child(2) {
+  text-align: right;
+  padding-top: 0.1em;
+  padding-right: 10%;
+  font-weight: 400;
+}
+
+.headerText p {
+  text-align: end;
+  font-size: 1.5rem;
+  padding-right: 10%;
+}
+
+@media screen and (max-width: 960px) {
+  .headerText > *:not(:last-child) {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .headerText > *:not(:last-child) {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .headerText > *:not(:last-child) {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+
+  .headerText > *:nth-child(1) {
+    padding-left: 0;
+  }
+
+  .headerText > *:nth-child(2) {
+    text-align: start;
+    padding-right: 0;
+    padding-top: 0;
+  }
+
+  .headerText p {
+    text-align: start;
+    padding-right: 0;
+    padding-left: 1%;
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .headerText > *:not(:last-child) {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+} */

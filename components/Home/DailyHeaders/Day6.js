@@ -1,7 +1,7 @@
 import styles from "../../../styles/Home/DailyHeader.module.css";
 import { motion, AnimatePresence } from "framer-motion";
 
-const Day3 = () => {
+const Day6 = () => {
   const headerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -38,10 +38,10 @@ const Day3 = () => {
             exit="exit"
             variants={headerVariants}
           >
-            <motion.h1 variants={textVariants}>Sea Legs</motion.h1>
-            <motion.h1 variants={textVariants}>SHALL SHAKE</motion.h1>
+            <motion.h1 variants={textVariants}>No Rainbow</motion.h1>
+            <motion.h1 variants={textVariants}>WITHOUT RAIN</motion.h1>
             <motion.p variants={textVariants}>
-              Shake or make, has its own stake.
+              The dawn of a new voyage.
             </motion.p>
           </motion.div>
         </AnimatePresence>
@@ -50,4 +50,4 @@ const Day3 = () => {
   );
 };
 
-export default Day3;
+export default Day6;

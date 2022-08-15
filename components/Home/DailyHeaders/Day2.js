@@ -1,7 +1,7 @@
 import styles from "../../../styles/Home/DailyHeader.module.css";
 import { motion, AnimatePresence } from "framer-motion";
 
-const Day1 = () => {
+const Day2 = () => {
   const headerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -50,4 +50,4 @@ const Day1 = () => {
   );
 };
 
-export default Day1;
+export default Day2;

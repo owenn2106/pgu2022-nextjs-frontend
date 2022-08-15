@@ -49,7 +49,7 @@ const leaderboard = () => {
         <p
           style={{ textAlign: "center", color: "#437384", fontSize: "1.5rem" }}
         >
-          Last updated: 11 August 2022 17:00:00 WIB
+          Last updated: 15 August 2022 17:30:00 WIB
         </p>
         <p style={{ textAlign: "center", paddingTop: "2em" }}>
           Use{" "}

@@ -14,48 +14,48 @@ const Recap = () => {
         <div className={styles.recapHeader}>
           <div className={styles.dateWrapper}>
             <h2>Daily Recap</h2>
-            <h3>11 August 2022</h3>
+            <h3>15 August 2022</h3>
           </div>
           <div className={styles.valueWrapper}>
             <div>
-              <p>Caring</p>
+              <p>Analytical</p>
+              <p>Thinking</p>
             </div>
             <hr />
-            <p>Integrity</p>
+            <p>Leadership</p>
           </div>
         </div>
         <div className={styles.recapContent}>
           <div className={styles.recapTitle}>
-            <h3>Sea Legs Shall Shake</h3>
+            <h3>Surviv(or)loss</h3>
           </div>
           <div className={styles.recapBody}>
             <p>
-              On this day, Voyagers are focused on the values of caring and
-              integrity, as it allows students to develop creativity and
-              acknowledgment in work. Today&apos;s sessions were brought by Aria
-              Widyanto with the topic &quot;Action speaks Louder than
-              Words&quot;, &quot;Leadership&quot; by Prof Agus W. Soehadi Ph.D.,
-              and &quot;Anti Corruption&quot; by Erlangga Adikusumah.
+              On the fourth day, two values are emphasized, Analytical Thinking
+              and Leadership, through speaker sessions brought by Alamanda
+              Shantika and Christian Sugiono. Alamanda Shantika shared the
+              importance of Analytical thinking with the topic, &quot;Building a
+              Thorough Way of Thinking&quot;. She recalled analytical thinking
+              as a way to search for opportunities and to view from another
+              perspective. While Christian Sugiono equipped us with Leadership
+              skills with his topic &quot;Building Trust and Respect&quot;. He
+              mentioned leadership as a skill to encourage others to achieve
+              goals. As a student, those skills help us to achieve tasks, build
+              relationships, and decision making.
             </p>
             <br />
             <p>
-              One of Aria&apos;s words that could be quoted is &quot;The drive
-              for caring can start from the realization that people cannot
-              survive on their own. When we acknowledge our dependence on
-              others, we feel compelled to help those who are in need&quot;.
-              That&apos;s why we have to show our act of kindness to everyone.
+              Voyagers also attended the Scavenger Hunt. Through this session,
+              Voyagers learned how to cooperate with moral standards as a group.
+              To increase their understanding as a freshman, they must answer
+              some questions regarding campus life through some interviews with
+              Prasmul Gear Up committees.
             </p>
             <br />
             <p>
-              Voyagers also participated in the Scavenger Hunt, teaching them to
-              work as a whole with moral principles. They must approach
-              committees as a team to enhance their knowledge of campus life.
-            </p>
-            <br />
-            <p>
-              Caring and integrity are crucial as it allows students to develop
-              creativity and acknowledgment in work. Brace yourselves, a storm
-              is coming.
+              By this chance, we hope voyagers could understand the importance
+              of Analytical Thinking and Leadership and implement it in their
+              daily life.
             </p>
           </div>
         </div>

@@ -18,7 +18,7 @@
 
 @media screen and (max-width: 500px) {
   .recapWrapper {
-    min-height: 115vh;
+    min-height: 130vh;
   }
 }
 
@@ -105,9 +105,17 @@
   display: flex;
 }
 
+.valueWrapper div > *:first-child {
+  padding-right: 0.2em;
+}
+
 @media screen and (max-width: 600px) {
   .valueWrapper div {
     flex-direction: column;
+  }
+
+  .valueWrapper div > *:first-child {
+    padding-right: 0em;
   }
 }
 
@@ -126,17 +134,16 @@
   margin: 0 0.5em;
 }
 
-/* @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .valueWrapper hr {
     width: 50px;
   }
-} */
-
-/* @media screen and (max-width: 600px) {
+}
+@media screen and (max-width: 350px) {
   .valueWrapper hr {
-    width: 50px;
+    width: 25px;
   }
-} */
+}
 
 .recapTitle h3 {
   font-size: 4rem;

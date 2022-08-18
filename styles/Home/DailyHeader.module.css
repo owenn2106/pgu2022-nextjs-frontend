@@ -386,7 +386,7 @@ DAY 5
 ##########################################################################
 */
 
-.header {
+/* .header {
   background: url("/images/backgrounds/day5.webp");
   background-size: cover;
   background-position: bottom center;
@@ -483,7 +483,7 @@ DAY 5
     font-size: 3rem;
     line-height: 4rem;
   }
-}
+} */
 
 /* 
 ##########################################################################
@@ -491,7 +491,7 @@ DAY 6
 ##########################################################################
 */
 
-/* .header {
+.header {
   background: url("/images/backgrounds/day6.webp");
   background-size: cover;
   background-position: center;
@@ -579,4 +579,4 @@ DAY 6
     font-size: 3rem;
     line-height: 4rem;
   }
-} */
+}

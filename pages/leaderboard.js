@@ -44,13 +44,13 @@ const leaderboard = () => {
         </Head>
 
         <h1 style={{ textAlign: "center", fontSize: "3rem" }}>
-          PGU 2022 Leaderboard
+          PGU 2022 Leaderboard - FINAL
         </h1>
-        <p
+        {/* <p
           style={{ textAlign: "center", color: "#437384", fontSize: "1.5rem" }}
         >
           Last updated: 18 August 2022 13:30:00 WIB
-        </p>
+        </p> */}
         <p style={{ textAlign: "center", paddingTop: "2em" }}>
           Use{" "}
           <code
